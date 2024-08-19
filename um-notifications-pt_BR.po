@@ -1,0 +1,429 @@
+# Copyright (C) 2024 Ultimate Member
+# This file is distributed under the same license as the Ultimate Member - Real-time Notifications plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Ultimate Member - Real-time Notifications 2.3.6\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/notifications\n"
+"Last-Translator: Vitor Duarte\n"
+"Language-Team: Português do Brasil\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-04-11T12:51:12+00:00\n"
+"PO-Revision-Date: 2024-08-17 21:00+0000\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Domain: um-notifications\n"
+"Language: pt-BR\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Loco-Version: 2.6.11; wp-6.6.1"
+
+#. Plugin Name of the plugin
+#: um-notifications.php
+msgid "Ultimate Member - Real-time Notifications"
+msgstr ""
+"Ultimate Member - Notificações em Tempo Real\n"
+
+#. Plugin URI of the plugin
+#: um-notifications.php
+msgid "https://ultimatemember.com/extensions/real-time-notifications/"
+msgstr ""
+"https://ultimatemember.com/extensions/real-time-notifications/\n"
+
+#. Description of the plugin
+#: um-notifications.php
+msgid "Adds real-time activity notifications to community users."
+msgstr ""
+"Adiciona notificações de atividade em tempo real para usuários da comunidade."
+"\n"
+
+#. Author of the plugin
+#: um-notifications.php
+msgid "Ultimate Member"
+msgstr ""
+"Ultimate Member\n"
+
+#. Author URI of the plugin
+#: um-notifications.php
+msgid "https://ultimatemember.com/"
+msgstr ""
+"https://ultimatemember.com/\n"
+
+#. translators: %s is myCRED points amount.
+#: includes/core/actions/um-notifications-log-mycred.php:51 
+#: includes/core/actions/um-notifications-log-mycred.php:59
+msgid "%s %%_singular%%"
+msgstr ""
+"%s %%_singular%%\n"
+
+#. translators: %s is myCRED points amount.
+#: includes/core/actions/um-notifications-log-mycred.php:54 
+#: includes/core/actions/um-notifications-log-mycred.php:62
+msgid "%s %%_plural%%"
+msgstr ""
+"%s %%_plural%%\n"
+
+#. translators: %s is myCRED points amount.
+#: includes/core/actions/um-notifications-log-mycred.php:99
+msgid "%s points"
+msgstr ""
+"%s pontos\n"
+
+#: includes/core/actions/um-notifications-log-mycred.php:121
+msgid "Notification template"
+msgstr ""
+"Modelo de notificação\n"
+
+#. translators: %s is myCRED action type.
+#: includes/core/actions/um-notifications-log-mycred.php:172
+msgid ""
+"You've gained <strong>%%cred_f%% %%_plural%%</strong> for <strong>%s</strong>"
+"."
+msgstr ""
+"Você ganhou <strong>%%cred_f%% %%_plural%%</strong> por <strong>%s</strong>."
+"\n"
+
+#. translators: %s is myCRED action type.
+#: includes/core/actions/um-notifications-log-mycred.php:177
+msgid ""
+"You've taken away <strong>%%cred_f%% %%_plural%%</strong> for <strong>"
+"%s</strong>."
+msgstr ""
+"Você retirou <strong>%%cred_f%% %%_plural%%</strong> por <strong>%s</strong>."
+"\n"
+
+#. translators: %s is account name.
+#: includes/core/actions/um-notifications-log-mycred.php:198
+msgid ""
+"You've gained <strong>%%cred_f%% %%_plural%%</strong> for connecting %s "
+"account</strong>."
+msgstr ""
+"Você ganhou <strong>%%cred_f%% %%_plural%%</strong> por conectar a conta "
+"%s</strong>.\n"
+
+#. translators: %s is account name.
+#: includes/core/actions/um-notifications-log-mycred.php:200
+msgid ""
+"You've taken away <strong>%%cred_f%% %%_plural%%</strong> for disconnecting "
+"%s account</strong>."
+msgstr ""
+"Você retirou <strong>%%cred_f%% %%_plural%%</strong> por desconectar a conta "
+"%s</strong>.\n"
+
+#: includes/core/class-notifications-main-api.php:47
+msgid "Role upgrade"
+msgstr ""
+"Atualização de cargo\n"
+
+#: includes/core/class-notifications-main-api.php:48
+msgid "When my membership level is changed"
+msgstr ""
+"Quando meu nível de associação é alterado\n"
+
+#: includes/core/class-notifications-main-api.php:51
+msgid "New user comment reply"
+msgstr ""
+"Nova resposta de comentário de usuário\n"
+
+#: includes/core/class-notifications-main-api.php:52
+msgid "When a member replies to one of my comments"
+msgstr ""
+"Quando um membro responde a um de meus comentários\n"
+
+#: includes/core/class-notifications-main-api.php:55
+msgid "New guest comment reply"
+msgstr ""
+"Nova resposta de comentário de visitante\n"
+
+#: includes/core/class-notifications-main-api.php:56
+msgid "When a guest replies to one of my comments"
+msgstr ""
+"Quando um visitante responde a um de meus comentários\n"
+
+#: includes/core/class-notifications-main-api.php:59
+msgid "New user comment"
+msgstr ""
+"Novo comentário de usuário\n"
+
+#: includes/core/class-notifications-main-api.php:60
+msgid "When a member comments on my posts"
+msgstr ""
+"Quando um membro comenta em meus posts\n"
+
+#: includes/core/class-notifications-main-api.php:63
+msgid "New guest comment"
+msgstr ""
+"Novo comentário de visitante\n"
+
+#: includes/core/class-notifications-main-api.php:64
+msgid "When a guest comments on my posts"
+msgstr ""
+"Quando um visitante comenta em meus posts\n"
+
+#: includes/core/class-notifications-main-api.php:67
+msgid "User view profile"
+msgstr ""
+"Usuário visualiza perfil\n"
+
+#: includes/core/class-notifications-main-api.php:68
+msgid "When a member views my profile"
+msgstr ""
+"Quando um membro visualiza meu perfil\n"
+
+#: includes/core/class-notifications-main-api.php:71
+msgid "Guest view profile"
+msgstr ""
+"Visitante viu seu perfil\n"
+
+#: includes/core/class-notifications-main-api.php:72
+msgid "When a guest views my profile"
+msgstr ""
+"Quando um visitante visualiza meu perfil\n"
+
+#: includes/core/class-notifications-main-api.php:419 
+#: includes/core/class-notifications-main-api.php:512
+msgid "Wrong notification ID"
+msgstr ""
+"ID de notificação incorreto\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+
+#: includes/core/class-notifications-main-api.php:762
+msgid "Mark as read"
+msgstr ""
+"Marcar como lida\n"
+
+#: includes/core/class-notifications-main-api.php:765
+msgid "Remove notification"
+msgstr ""
+"Remover notificação\n"
+
+#: includes/core/class-notifications-main-api.php:768
+msgid "Disable this type of notifications"
+msgstr ""
+"Desativar esse tipo de notificações\n"
+
+#. translators: %s is notification time.
+#: includes/core/class-notifications-main-api.php:779
+msgid "%s ago"
+msgstr ""
+"%s atrás\n"
+
+#: includes/core/class-notifications-main-api.php:807
+msgid "Real-time is disabled"
+msgstr ""
+"Tempo real está desativado\n"
+
+#: includes/core/class-notifications-main-api.php:828 
+#: includes/core/class-notifications-shortcode.php:171
+msgid "9+"
+msgstr ""
+"9+\n"
+
+#: includes/core/class-notifications-setup.php:126
+msgid ""
+"Your membership level has been changed from <strong>{role_pre}</strong> to "
+"<strong>{role_post}</strong>"
+msgstr ""
+"Seu nível de associação foi alterado de <strong>{role_pre}</strong> para "
+"<strong>{role_post}</strong>.\n"
+
+#: includes/core/class-notifications-setup.php:127
+msgid "<strong>{member}</strong> has replied to one of your comments."
+msgstr ""
+"<strong>{member}</strong> respondeu a um de seus comentários.\n"
+
+#: includes/core/class-notifications-setup.php:128
+msgid "A guest has replied to one of your comments."
+msgstr ""
+"Um visitante respondeu a um de seus comentários.\n"
+
+#: includes/core/class-notifications-setup.php:129
+msgid ""
+"<strong>{member}</strong> has commented on your <strong>post</strong>. <span "
+"class=\"b1\">\"{comment_excerpt}\"</span>"
+msgstr ""
+"<strong>{member}</strong> comentou em seu <strong>post</strong>. <span "
+"class=\"b1\">\"{comment_excerpt}\"</span>\n"
+
+#: includes/core/class-notifications-setup.php:130
+msgid ""
+"A guest has commented on your <strong>post</strong>. <span class=\"b1\">"
+"\"{comment_excerpt}\"</span>"
+msgstr ""
+"Um visitante comentou em seu <strong>post</strong>. <span class=\"b1\">"
+"\"{comment_excerpt}\"</span>\n"
+
+#: includes/core/class-notifications-setup.php:131
+msgid "<strong>{member}</strong> has viewed your profile."
+msgstr ""
+"<strong>{member}</strong> visualizou seu perfil.\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+
+#: includes/core/class-notifications-setup.php:132
+msgid "A guest has viewed your profile."
+msgstr ""
+"Um visitante visualizou seu perfil.\n"
+
+#: includes/core/filters/um-notifications-account.php:15
+msgid "Web notifications"
+msgstr ""
+"Notificações web\n"
+
+#: includes/core/filters/um-notifications-account.php:16
+msgid "Update Settings"
+msgstr ""
+"Atualizar Configurações\n"
+
+#: includes/core/filters/um-notifications-license.php:16
+msgid "Real-time Notifications License Key"
+msgstr ""
+"Licença de Notificações em Tempo Real\n"
+
+#: includes/core/filters/um-notifications-settings.php:15 
+#: includes/core/um-notifications-init.php:109 
+#: templates/notifications-header.php:17
+msgid "Notifications"
+msgstr ""
+"Notificações\n"
+
+#: includes/core/filters/um-notifications-settings.php:20
+msgid "Enable real-time instant notification"
+msgstr ""
+"Habilitar notificação instantânea em tempo real\n"
+
+#: includes/core/filters/um-notifications-settings.php:21
+msgid "Turn off please If your server is getting some load."
+msgstr ""
+"Desative, por favor, se o seu servidor estiver sobrecarregado.\n"
+
+#: includes/core/filters/um-notifications-settings.php:26
+msgid ""
+"How often do you want the ajax notifier to check for new notifications? (in "
+"seconds)"
+msgstr ""
+"Com que frequência você deseja que o notificador ajax verifique novas "
+"notificações? (em segundos)\n"
+
+#: includes/core/filters/um-notifications-settings.php:34
+msgid "Where should the notification icon appear?"
+msgstr ""
+"Onde o ícone de notificação deve aparecer?\n"
+
+#: includes/core/filters/um-notifications-settings.php:36
+msgid "Right bottom"
+msgstr ""
+"Inferior direito\n"
+
+#: includes/core/filters/um-notifications-settings.php:37
+msgid "Left bottom"
+msgstr ""
+"Inferior esquerdo\n"
+
+#: includes/core/filters/um-notifications-settings.php:39
+msgid "Select..."
+msgstr ""
+"Selecionar...\n"
+
+#: includes/core/filters/um-notifications-settings.php:45
+msgid "Always display the notification icon"
+msgstr ""
+"Sempre exibir o ícone de notificação\n"
+
+#: includes/core/filters/um-notifications-settings.php:46
+msgid "If turned off, the icon will only show when there's a new notification."
+msgstr ""
+"Se desativado, o ícone será exibido apenas quando houver uma nova "
+"notificação.\n"
+
+#: includes/core/filters/um-notifications-settings.php:51
+msgid "Notification sound"
+msgstr ""
+"Som de notificação\n"
+
+#: includes/core/filters/um-notifications-settings.php:52
+msgid ""
+"Play sound when new notification appear. It may not work in Chrome due to "
+"Autoplay Policy."
+msgstr ""
+"Reproduzir som quando uma nova notificação aparecer. Pode não funcionar no "
+"Chrome devido à Política de Reprodução Automática.\n"
+
+#: includes/core/filters/um-notifications-settings.php:58
+msgid "Account Tab"
+msgstr ""
+"Aba de Conta\n"
+
+#: includes/core/filters/um-notifications-settings.php:59
+msgid "Show or hide an account tab that shows the web notifications."
+msgstr ""
+"Mostrar ou ocultar uma aba de conta que exibe as notificações da web.\n"
+
+#: includes/core/filters/um-notifications-settings.php:86
+msgid "Template"
+msgstr ""
+"Modelo\n"
+
+#: templates/account-webnotifications.php:23
+msgid "Receiving Notifications"
+msgstr ""
+"Recebendo Notificações\n"
+
+#: templates/notifications-header.php:23
+msgid "All"
+msgstr ""
+"Tudo\n"
+
+#: templates/notifications-header.php:24
+msgid "Unread"
+msgstr ""
+"Não lidas\n"
+
+#: templates/notifications-header.php:32
+msgid "See all notifications"
+msgstr ""
+"Ver todas as notificações\n"
+
+#: templates/notifications-header.php:36
+msgid "Mark all as read"
+msgstr ""
+"Marcar todas como lidas\n"
+
+#: templates/notifications-header.php:37
+msgid "Clear all notifications"
+msgstr ""
+"Limpar todas as notificações\n"
+
+#: templates/notifications-header.php:38
+msgid "Notifications settings"
+msgstr ""
+"Configurações de notificações\n"
+
+#: templates/notifications.php:22
+msgid "Load more"
+msgstr ""
+"Carregar mais\n"
+
+#: templates/notifications.php:26
+msgid "No new notifications"
+msgstr ""
+"Nenhuma nova notificação\n"
+
+#. translators: %s is the Real-time Notifications extension name.
+#: um-notifications.php:50 um-notifications.php:67
+msgid ""
+"The <strong>%s</strong> extension requires the Ultimate Member plugin to be "
+"activated to work properly. You can download it <a href=\"https://wordpress."
+"org/plugins/ultimate-member\">here</a>"
+msgstr ""
+"A extensão <strong>%s</strong> requer que o plugin Ultimate Member esteja "
+"ativado para funcionar corretamente. Você pode baixá-lo <a href=\"https:"
+"//wordpress.org/plugins/ultimate-member\">aqui</a>."

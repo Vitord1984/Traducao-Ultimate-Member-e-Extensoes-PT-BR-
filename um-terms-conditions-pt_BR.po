@@ -1,0 +1,331 @@
+# Copyright (C) 2024 Ultimate Member
+# This file is distributed under the same license as the Ultimate Member - Terms & Conditions plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Ultimate Member - Terms & Conditions 2.1.8\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/terms-and-"
+"conditions\n"
+"Last-Translator: Vitor Duarte\n"
+"Language-Team: Português do Brasil\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-04-29T10:37:33+00:00\n"
+"PO-Revision-Date: 2024-08-18 00:39+0000\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Domain: um-terms-conditions\n"
+"Language: pt-BR\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Loco-Version: 2.6.11; wp-6.6.1"
+
+#. Plugin Name of the plugin
+#: um-terms-conditions.php
+msgid "Ultimate Member - Terms & Conditions"
+msgstr ""
+"Ultimate Member - Termos e Condições\n"
+
+#. Plugin URI of the plugin
+#: um-terms-conditions.php
+msgid "https://ultimatemember.com/extensions/terms-conditions/"
+msgstr ""
+"https://ultimatemember.com/extensions/terms-conditions/\n"
+
+#. Description of the plugin
+#: um-terms-conditions.php
+msgid ""
+"Add a terms and condition checkbox to your registration forms & require "
+"users to agree to your T&Cs before registering on your site."
+msgstr ""
+"Adicionar uma caixa de seleção para termos e condições aos seus formulários "
+"de registro e exigir que os usuários concordem com seus T&Cs antes de se "
+"registrarem em seu site.\n"
+
+#. Author of the plugin
+#: um-terms-conditions.php
+msgid "Ultimate Member"
+msgstr ""
+"Ultimate Member\n"
+
+#. Author URI of the plugin
+#: um-terms-conditions.php
+msgid "https://ultimatemember.com/"
+msgstr ""
+"https://ultimatemember.com/\n"
+
+#: includes/admin/class-dashboard.php:111 
+#: includes/admin/class-dashboard.php:174
+msgid "There are no members who match criteria."
+msgstr ""
+"Não há membros que correspondam aos critérios.\n"
+
+#: includes/admin/class-dashboard.php:128
+msgid "Can not get email address."
+msgstr ""
+"Não é possível obter o endereço de e-mail.\n"
+
+#: includes/admin/class-dashboard.php:139
+msgid "DONE. "
+msgstr "FEITO."
+
+#. translators: %1$d - total count of users for getting email
+#: includes/admin/class-dashboard.php:141
+msgid "Email has been sent to %1$d member."
+msgid_plural "Email has been sent to %1$d members."
+msgstr[0] ""
+"E-mail foi enviado para %1$d membro.\n"
+msgstr[1] ""
+"E-mail foi enviado para %1$d membros.\n"
+
+#: includes/admin/class-dashboard.php:144
+msgid "Emails are sending. Progress "
+msgstr ""
+"E-mails estão sendo enviados. Progresso\n"
+
+#. translators: %1$d - process count of users for getting email, %2$d - total count of users for getting email
+#: includes/admin/class-dashboard.php:146
+msgid "Email has been sent to %1$d of %2$d member."
+msgid_plural "Email has been sent to %1$d of %2$d members."
+msgstr[0] "E-mail foi enviado para %1$d de %2$d membro."
+msgstr[1] "E-mail foi enviado para %1$d de %2$d membros."
+
+#. translators: %d - a number of users.
+#: includes/admin/class-dashboard.php:186
+msgid "Information about Terms & Conditions agreement removed for %d member."
+msgid_plural ""
+"Information about Terms & Conditions agreement removed for %d members."
+msgstr[0] ""
+"Informações sobre o acordo de Termos e Condições removidas para %d membro.\n"
+msgstr[1] ""
+"Informações sobre o acordo de Termos e Condições removidas para %d membros.\n"
+
+#: includes/admin/class-dashboard.php:213 includes/admin/class-settings.php:38 
+#: includes/admin/class-terms-conditions-admin.php:36 
+#: includes/core/class-account.php:47
+msgid "Terms & Conditions"
+msgstr ""
+"Termos e Condições\n"
+
+#: includes/admin/class-email.php:38
+msgid "Terms & Conditions - Agreement request"
+msgstr ""
+"Termos e Condições - Solicitação de acordo\n"
+
+#: includes/admin/class-email.php:39
+msgid "Send a notification requesting confirmation of terms and conditions."
+msgstr ""
+"Enviar uma notificação solicitando confirmação dos termos e condições.\n"
+
+#: includes/admin/class-email.php:40 includes/core/class-setup.php:29
+msgid "{site_name} - Terms & Conditions"
+msgstr "{site_name} - Termos e Condições"
+
+#: includes/admin/class-email.php:41
+msgid "Please confirm terms and conditions on the site {site_name}"
+msgstr ""
+"Por favor, confirme os termos e condições no site {site_name}\n"
+
+#: includes/admin/class-email.php:73
+msgid "Placeholders:"
+msgstr ""
+"Placeholders:\n"
+
+#: includes/admin/class-settings.php:43
+msgid "Terms & Conditions account tab"
+msgstr ""
+"Guia de Termos e Condições da conta\n"
+
+#: includes/admin/class-settings.php:44
+msgid "Enable/disable the Terms & Conditions account tab in account page"
+msgstr ""
+"Habilitar/desabilitar a guia de Termos e Condições na página da conta\n"
+
+#: includes/admin/class-settings.php:49
+msgid "Hide the tab after agreement"
+msgstr ""
+"Ocultar a guia após a aceitação\n"
+
+#: includes/admin/class-settings.php:50
+msgid "Hide the Terms & Conditions account tab after agreement"
+msgstr ""
+"Ocultar a guia de Termos e Condições após a aceitação\n"
+
+#: includes/admin/class-settings.php:56 
+#: includes/admin/templates/form/register_terms-conditions.php:35
+msgid "Content"
+msgstr "Conteúdo"
+
+#: includes/admin/class-settings.php:65 
+#: includes/admin/templates/form/register_terms-conditions.php:43
+msgid "Toggle Show text"
+msgstr ""
+"Alternar Mostrar texto\n"
+
+#: includes/admin/class-settings.php:66 
+#: includes/admin/templates/form/register_terms-conditions.php:44 
+#: includes/admin/templates/form/register_terms-conditions.php:45 
+#: includes/core/class-account.php:80 
+#: templates/um-terms-conditions-public-display.php:32 
+#: templates/um-terms-conditions-public-display.php:34
+msgid "Show Terms"
+msgstr ""
+"Mostrar Termos\n"
+
+#: includes/admin/class-settings.php:72 
+#: includes/admin/templates/form/register_terms-conditions.php:51
+msgid "Toggle Hide text"
+msgstr ""
+"Alternar Ocultar texto\n"
+
+#: includes/admin/class-settings.php:73 
+#: includes/admin/templates/form/register_terms-conditions.php:52 
+#: includes/admin/templates/form/register_terms-conditions.php:53 
+#: includes/core/class-account.php:79 
+#: templates/um-terms-conditions-public-display.php:23 
+#: templates/um-terms-conditions-public-display.php:33
+msgid "Hide Terms"
+msgstr ""
+"Ocultar Termos\n"
+
+#: includes/admin/class-settings.php:79 
+#: includes/admin/templates/form/register_terms-conditions.php:59 
+#: includes/admin/templates/form/register_terms-conditions.php:61
+msgid "Checkbox agreement description"
+msgstr ""
+"Descrição do acordo da caixa de seleção\n"
+
+#: includes/admin/class-settings.php:80 includes/core/class-account.php:78
+msgid "I agree to these terms and conditions"
+msgstr ""
+"Eu concordo com estes termos e condições\n"
+
+#: includes/admin/class-settings.php:86
+msgid "Error text"
+msgstr ""
+"Texto de erro\n"
+
+#: includes/admin/class-settings.php:87 
+#: includes/admin/templates/form/register_terms-conditions.php:68 
+#: includes/admin/templates/form/register_terms-conditions.php:69 
+#: includes/core/class-account.php:150 
+#: templates/um-terms-conditions-public-display.php:54
+msgid "You must agree to our terms & conditions"
+msgstr ""
+"Você deve concordar com nossos termos e condições\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+
+#: includes/admin/templates/dashboard.php:15
+msgid "Reset agreement"
+msgstr ""
+"Redefinir acordo\n"
+
+#: includes/admin/templates/dashboard.php:16
+msgid ""
+"This tool removes information about Terms & Conditions agreement for members "
+"with selected role(s)."
+msgstr ""
+"Esta ferramenta remove informações sobre o acordo de Termos e Condições para "
+"membros com o(s) cargo(s) selecionado(s).\n"
+
+#: includes/admin/templates/dashboard.php:32 
+#: includes/admin/templates/dashboard.php:52
+msgid "All Roles"
+msgstr ""
+"Todos os Cargos\n"
+
+#: includes/admin/templates/dashboard.php:37
+msgid "Reset"
+msgstr ""
+"Redefinir\n"
+
+#: includes/admin/templates/dashboard.php:47
+msgid "Send agreement notification"
+msgstr ""
+"Enviar notificação de acordo\n"
+
+#: includes/admin/templates/dashboard.php:48
+msgid ""
+"This tool sends the `Terms & Conditions - Agreement request` email for "
+"members with selected role(s) who have not confirmed terms and conditions "
+"yet."
+msgstr ""
+"Esta ferramenta envia o e-mail Termos e Condições - Solicitação de acordo "
+"para membros com o(s) cargo(s) selecionado(s) que ainda não confirmaram os "
+"termos e condições.\n"
+
+#: includes/admin/templates/dashboard.php:58
+msgid "Send Emails"
+msgstr ""
+"Enviar E-mails\n"
+
+#: includes/admin/templates/dashboard.php:82
+msgid "Run"
+msgstr "Executar"
+
+#: includes/admin/templates/dashboard.php:85
+msgid "Pause"
+msgstr ""
+"Pausar\n"
+
+#: includes/admin/templates/dashboard.php:88
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: includes/admin/templates/form/register_terms-conditions.php:7
+msgid "Select page"
+msgstr ""
+"Selecionar página\n"
+
+#: includes/admin/templates/form/register_terms-conditions.php:25
+msgid "Enable on this form"
+msgstr ""
+"Habilitar neste formulário\n"
+
+#: includes/admin/templates/form/register_terms-conditions.php:28
+msgid "No"
+msgstr ""
+"Não\n"
+
+#: includes/admin/templates/form/register_terms-conditions.php:29
+msgid "Yes"
+msgstr ""
+"Sim\n"
+
+#: includes/admin/templates/form/register_terms-conditions.php:60 
+#: templates/um-terms-conditions-public-display.php:45
+msgid "Please confirm that you agree to our terms & conditions"
+msgstr ""
+"Por favor, confirme que você concorda com nossos termos e condições\n"
+
+#: includes/admin/templates/form/register_terms-conditions.php:67
+msgid "Error Text"
+msgstr ""
+"Texto de Erro\n"
+
+#: includes/core/class-account.php:48
+msgid "Confirm"
+msgstr "Confirmar"
+
+#: includes/core/class-account.php:116
+msgid "You have confirmed terms and conditions."
+msgstr ""
+"Você confirmou os termos e condições.\n"
+
+#: includes/core/class-terms-conditions-public.php:59
+msgid "Please agree terms & conditions."
+msgstr ""
+"Por favor, concorde com os termos e condições.\n"
+
+#. translators: %s is the Terms&Conditions extension name.
+#: um-terms-conditions.php:50 um-terms-conditions.php:67
+msgid ""
+"The <strong>%s</strong> extension requires the Ultimate Member plugin to be "
+"activated to work properly. You can download it <a href=\"https://wordpress."
+"org/plugins/ultimate-member\">here</a>"
+msgstr ""
+"A extensão <strong>%s</strong> requer que o plugin Ultimate Member esteja "
+"ativado para funcionar corretamente. Você pode baixá-lo <a href=\"https:"
+"//wordpress.org/plugins/ultimate-member\">aqui</a>\n"

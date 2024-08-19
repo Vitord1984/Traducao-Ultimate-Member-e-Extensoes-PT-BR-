@@ -1,0 +1,1630 @@
+# Copyright (C) 2024 Ultimate Member Group Ltd.
+# This file is distributed under the same license as the Ultimate Member - Stripe plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Ultimate Member - Stripe 1.2.5\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/um-stripe\n"
+"Last-Translator: Vitor Duarte\n"
+"Language-Team: Português do Brasil\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-07-09T11:27:38+00:00\n"
+"PO-Revision-Date: 2024-08-18 00:38+0000\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Domain: um-stripe\n"
+"Language: pt-BR\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Loco-Version: 2.6.11; wp-6.6.1"
+
+#. Plugin Name of the plugin
+#: um-stripe.php
+msgid "Ultimate Member - Stripe"
+msgstr ""
+"Ultimate Member - Stripe\n"
+
+#. Plugin URI of the plugin
+#: um-stripe.php
+msgid "https://www.ultimatemember.com/extensions/stripe"
+msgstr ""
+"https://www.ultimatemember.com\n"
+
+#. Description of the plugin
+#: um-stripe.php
+msgid ""
+"Integrates the popular payment processing platform Stripe with Ultimate "
+"Member"
+msgstr ""
+"Integra a popular plataforma de processamento de pagamentos Stripe com o "
+"Ultimate Member\n"
+
+#. Author of the plugin
+#: um-stripe.php
+msgid "Ultimate Member Group Ltd."
+msgstr ""
+"Ultimate Member Group Ltd.\n"
+
+#. Author URI of the plugin
+#: um-stripe.php
+msgid "https://www.ultimatemember.com"
+msgstr ""
+"https://www.ultimatemember.com\n"
+
+#: class-functions.php:264
+msgid "Live"
+msgstr "Live"
+
+#: class-functions.php:264
+msgid "Sandbox"
+msgstr "Sandbox"
+
+#: class-functions.php:284 class-functions.php:286 class-functions.php:346 
+#: class-functions.php:348
+msgid "every"
+msgstr ""
+"todo\n"
+
+#: class-functions.php:293 class-functions.php:355
+msgid "month"
+msgstr ""
+"mês\n"
+
+#. translators: 1: Months
+#: class-functions.php:295 class-functions.php:357
+msgid "%s month"
+msgid_plural "%s months"
+msgstr[0] ""
+"%s mês\n"
+msgstr[1] ""
+"%s meses\n"
+
+#: class-functions.php:300 class-functions.php:362
+msgid "year"
+msgstr ""
+"ano\n"
+
+#. translators: 1: Years
+#: class-functions.php:302 class-functions.php:364
+msgid "%s year"
+msgid_plural "%s years"
+msgstr[0] ""
+"%s ano\n"
+msgstr[1] ""
+"%s anos\n"
+
+#: class-functions.php:307 class-functions.php:369
+msgid "week"
+msgstr ""
+"semana\n"
+
+#. translators: 1: Weeks
+#: class-functions.php:309 class-functions.php:371
+msgid "%s week"
+msgid_plural "%s weeks"
+msgstr[0] ""
+"%s semana\n"
+msgstr[1] ""
+"%s semanas\n"
+
+#: class-functions.php:314 class-functions.php:376
+msgid "day"
+msgstr ""
+"dia\n"
+
+#. translators: 1: Days
+#: class-functions.php:316 class-functions.php:378
+msgid "%s day"
+msgid_plural "%s days"
+msgstr[0] ""
+"%s dia\n"
+msgstr[1] ""
+"%s dias\n"
+
+#. translators: 1: You must add the following webhook endpoint
+#: includes/admin/class-content-restriction.php:89
+msgid ""
+"You must connect to Stripe to restrict content. Click here to <a "
+"href=\"%1$s\" class=\"um-stripe-dashboard-url\" target=\"_blank\">Connect "
+"Stripe Account</a>"
+msgstr ""
+"Você deve se conectar ao Stripe para restringir conteúdo. Clique aqui para "
+"<a href=\"%1$s\" class=\"um-stripe-dashboard-url\" target=\"_blank\">"
+"Conectar Conta Stripe</a>."
+
+#: includes/admin/class-content-restriction.php:94 
+#: includes/admin/class-content-restriction.php:106
+msgid "Restrict Access by Stripe Plans"
+msgstr ""
+"Restringir Acesso por Planos Stripe\n"
+
+#: includes/admin/class-content-restriction.php:107
+msgid ""
+"Allow users to access the content when they are subscribed to the selected "
+"Stripe Plans below."
+msgstr ""
+"Permitir que os usuários acessem o conteúdo quando estiverem inscritos nos "
+"Planos do Stripe selecionados abaixo.\n"
+
+#: includes/admin/class-content-restriction.php:116
+msgid "Active Subscription only"
+msgstr ""
+"Apenas Assinatura Ativa\n"
+
+#: includes/admin/class-content-restriction.php:117
+msgid ""
+"If selected, this content will only be viewable to users with an active "
+"Stripe subscription. For example, if a user's Stripe subscription expires "
+"they will not longer be able to view this content"
+msgstr ""
+"Se selecionado, este conteúdo só será visível para usuários com uma "
+"assinatura Stripe ativa. Por exemplo, se a assinatura Stripe de um usuário "
+"expirar, ele não poderá mais visualizar este conteúdo.\n"
+
+#: includes/admin/class-content-restriction.php:128
+msgid "Select Stripe Plans to allow access to this post"
+msgstr ""
+"Selecionar Planos Stripe para permitir acesso a esta publicação\n"
+
+#: includes/admin/class-content-restriction.php:148
+msgid "Select Stripe Prices to allow access to this post"
+msgstr ""
+"Selecionar Preços Stripe para permitir acesso a esta publicação\n"
+
+#: includes/admin/class-content-restriction.php:152
+msgid ""
+"This allows you to restrict content for targetted users who purchased "
+"specific prices regardless of their subscribed plan and role using this "
+"option."
+msgstr ""
+"Isso permite restringir o conteúdo para usuários específicos que compraram "
+"determinados preços, independentemente do plano ou cargo ao qual estão "
+"inscritos, usando esta opção.\n"
+
+#: includes/admin/class-content-restriction.php:158
+msgid ""
+"Can users subscribed to this plan view the content if they do not have the "
+"correct role permission?"
+msgstr ""
+"Os usuários inscritos neste plano podem visualizar o conteúdo se não tiverem "
+"a permissão de cargo correta?\n"
+
+#: includes/admin/class-content-restriction.php:161
+msgid ""
+"Yes, as long as a user is subscribed to this plan/price, they can view the "
+"content regardless of their user role"
+msgstr ""
+"Sim, desde que um usuário esteja inscrito neste plano/preço, ele pode "
+"visualizar o conteúdo independentemente do seu cargo de usuário.\n"
+
+#: includes/admin/class-content-restriction.php:162
+msgid ""
+"No, for users to view this content they must be subscribed to the plan/price "
+"AND also have the correct role permission to view"
+msgstr ""
+"Não, para que os usuários visualizem este conteúdo, eles devem estar "
+"inscritos no plano/preço E também ter a permissão de cargo correta para "
+"visualizar\n"
+
+#: includes/admin/class-menu.php:41 includes/admin/class-menu.php:42 
+#: includes/admin/class-site-health.php:131 includes/common/class-cpt.php:111 
+#: includes/common/class-cpt.php:112 includes/common/class-fields.php:53
+msgid "Stripe Plans"
+msgstr ""
+"Planos Stripe\n"
+
+#: includes/admin/class-metabox.php:60
+msgid "Setup Subscription"
+msgstr ""
+"Configurar Assinatura\n"
+
+#: includes/admin/class-metabox.php:70 includes/admin/class-site-health.php:154
+msgid "Shortcode"
+msgstr ""
+"Shortcode\n"
+
+#: includes/admin/class-metabox.php:79
+msgid "Subscribe URL"
+msgstr ""
+"URL de Assinatura\n"
+
+#. translators: 1: You must add the following webhook endpoint
+#: includes/admin/class-settings.php:61
+msgid ""
+"When you hit on \"Connect with Stripe\" button, Stripe extension will create "
+"a new webhook endpoint <strong style=\"background-color:#ddd;\">&nbsp;"
+"%1$s&nbsp;</strong> to your <a href=\"%2$s\" class=\"um-stripe-dashboard-"
+"url\" target=\"_blank\">Stripe account settings</a> (if there isn't one). "
+"This will enable your site to receive notifications on the charge statuses. "
+"<span class=\"um-stripe-webhook-notice\"></dspan> "
+msgstr ""
+"Quando você clicar no botão \"Conectar com Stripe\", a extensão Stripe "
+"criará um novo webhook endpoint <strong style=\"background-color:#ddd;\">"
+" %1$s </strong> nas configurações da sua <a href=\"%2$s\" class=\"um-stripe-"
+"dashboard-url\" target=\"_blank\">conta Stripe</a> (se ainda não houver um). "
+"Isso permitirá que seu site receba notificações sobre o status das cobranças."
+" <span class=\"um-stripe-webhook-notice\"></span>"
+
+#: includes/admin/class-settings.php:64 includes/admin/class-settings.php:260
+msgid "Disconnect Stripe Account"
+msgstr ""
+"Desconectar Conta do Stripe\n"
+
+#: includes/admin/class-settings.php:65 includes/admin/class-settings.php:261
+msgid "Import Prices from your Stripe account"
+msgstr ""
+"Importar Preços da sua conta Stripe\n"
+
+#: includes/admin/class-settings.php:67
+msgid "Last Import: "
+msgstr ""
+"Última Importação:\n"
+
+#: includes/admin/class-settings.php:69
+msgid ""
+"When you import Stripe prices, it will create Ultimate Member Stripe Plans "
+"where each has its own settings to assign role per subscription status."
+msgstr ""
+"Quando você importa preços do Stripe, serão criados Planos Stripe do "
+"Ultimate Member onde cada um tem suas próprias configurações para atribuir "
+"cargos de acordo com o status da assinatura.\n"
+
+#: includes/admin/class-settings.php:71
+msgid "Connect with"
+msgstr ""
+"Conectar com\n"
+
+#: includes/admin/class-settings.php:75
+msgid ""
+"The constant <strong>UM_STRIPE_DEV_LOCAL</strong> has been defined in the "
+"<strong>wp-config.php</strong> file. Your site is listening to Stripe CLI "
+"events."
+msgstr ""
+"A constante <strong>UM_STRIPE_DEV_LOCAL</strong> foi definida no arquivo "
+"<strong>wp-config.php</strong>. Seu site está monitorando eventos do Stripe "
+"CLI."
+
+#: includes/admin/class-settings.php:85 includes/admin/class-site-health.php:90
+msgid "Sandbox/Test Mode"
+msgstr ""
+"Modo Sandbox/Teste\n"
+
+#: includes/admin/class-settings.php:91 includes/admin/class-site-health.php:78
+msgid "Live Publishable Key"
+msgstr ""
+"Chave Publicável Live\n"
+
+#: includes/admin/class-settings.php:97
+msgid "Live Restricted or Secret Key"
+msgstr ""
+"Chave Restrita ou Secreta Live\n"
+
+#: includes/admin/class-settings.php:99
+msgid ""
+"You can add either the Stripe secret or restricted key. The restricted key "
+"offers greater security than the secret key. You can get/create your API "
+"keys via this <a href=\"https://dashboard.stripe.com/test/apikeys\" "
+"target=\"_blank\"/>page</a> on your Stripe dashboard. To learn more about "
+"adding keys to your WordPress website please see this <a target=\"_blank\" "
+"href=\"https://ultimatemember.github.io/docs-v3/um-stripe/article/1607-"
+"stripe-setting-up-webhook-and-test-public-keys.html\">article</a>."
+msgstr ""
+"Você pode adicionar a chave secreta do Stripe ou a chave restrita. A chave "
+"restrita oferece maior segurança do que a chave secreta. Você pode "
+"obter/criar suas chaves API através desta <a href=\"https://dashboard.stripe."
+"com/test/apikeys\" target=\"_blank\"/>página</a> no painel do Stripe. Para "
+"saber mais sobre como adicionar chaves ao seu site WordPress, consulte este "
+"<a target=\"_blank\" href=\"https://ultimatemember.github.io/docs-v3/um-"
+"stripe/article/1607-stripe-setting-up-webhook-and-test-public-keys.html\">"
+"artigo</a>"
+
+#: includes/admin/class-settings.php:105 
+#: includes/admin/class-site-health.php:101
+msgid "Test Publishable Key"
+msgstr ""
+"Chave Publicável de Teste\n"
+
+#: includes/admin/class-settings.php:111 
+#: includes/admin/class-site-health.php:105
+msgid "Test Secret Key"
+msgstr ""
+"Chave Secreta de Teste\n"
+
+#: includes/admin/class-settings.php:123
+msgid "Webhook Endpoints"
+msgstr ""
+"Endpoints de Webhook\n"
+
+#: includes/admin/class-settings.php:129
+msgid "Replace existing roles when a subscription status changes"
+msgstr ""
+"Substituir cargos existentes quando o status da assinatura mudar\n"
+
+#: includes/admin/class-settings.php:130
+msgid ""
+"When the status of a Stripe subscription changes, it either replaces all "
+"existing roles or gets combined with the new role. By default, this "
+"extension combines the new role."
+msgstr ""
+"Quando o status de uma assinatura Stripe muda, ele substitui todos os cargos "
+"existentes ou se combina com o novo cargo. Por padrão, esta extensão combina "
+"o novo cargo.\n"
+
+#: includes/admin/class-settings.php:135 
+#: includes/admin/class-user-columns.php:84
+msgid "Test Clock"
+msgstr ""
+"Test Clock\n"
+
+#: includes/admin/class-settings.php:136
+msgid ""
+"This creates Stripe Customers in <a href=\"https://stripe."
+"com/docs/billing/testing/test-clocks\" target=\"_blank\">test clock</a> mode."
+msgstr ""
+"Isso cria Clientes Stripe no modo <a href=\"https://stripe."
+"com/docs/billing/testing/test-clocks\" target=\"_blank\">test clock</a>."
+
+#: includes/admin/class-settings.php:143
+msgid "Enter a Test Clock ID"
+msgstr ""
+"Insira um ID de Test Clock\n"
+
+#: includes/admin/class-settings.php:144
+msgid ""
+"Test Clock ID. Get the ID from your <a href=\"https://dashboard.stripe."
+"com/test/test-clocks\" target=\"_blank\">Stripe account</a>"
+msgstr ""
+"ID do Test Clock. Obtenha o ID da sua <a href=\"https://dashboard.stripe."
+"com/test/test-clocks\" target=\"_blank\">conta Stripe</a>."
+
+#: includes/admin/class-settings.php:150
+msgid "Disable Activity Logs"
+msgstr ""
+"Desativar Logs de Atividades\n"
+
+#. Translators: %s is an activity log url
+#: includes/admin/class-settings.php:151
+msgid ""
+"This feature logs all users activities related to the subscriptions and "
+"onboarding process of User Registrations with Stripe fields or direct "
+"Subscribe URL.  <a href=\"%1$s\" target=\"_blank\">View Activity Logs</a> | "
+"<a href=\"%2$s\" target=\"_blank\">View Payment Logs</a>"
+msgstr ""
+"Esse recurso registra todas as atividades dos usuários relacionadas às "
+"assinaturas e ao processo de integração de Registros de Usuários com campos "
+"Stripe ou URL de Assinatura direta. <a href=\"%1$s\" target=\"_blank\">Ver "
+"Logs de Atividades</a> | <a href=\"%2$s\" target=\"_blank\">Ver Logs de "
+"Pagamento</a>."
+
+#: includes/admin/class-settings.php:156
+msgid "Stripe Embedded Checkout"
+msgstr ""
+"Checkout Incorporado do Stripe\n"
+
+#: includes/admin/class-settings.php:157
+msgid ""
+"By default, users when checking out will be redirected to the Stripe hosted "
+"checkout page. If you prefer to embed the Stripe checkout form directly on "
+"to your website please enable this setting. For more information please see "
+"this article."
+msgstr ""
+"Por padrão, os usuários ao finalizar o pagamento serão redirecionados para a "
+"página de checkout hospedada pelo Stripe. Se preferir incorporar o "
+"formulário de checkout do Stripe diretamente em seu site, por favor, "
+"habilite esta configuração. Para mais informações, consulte este artigo.\n"
+
+#: includes/admin/class-settings.php:162
+msgid "Display Tax Option in Stripe Plan Settings"
+msgstr ""
+"Exibir Opção de Imposto nas Configurações do Plano do Stripe\n"
+
+#: includes/admin/class-settings.php:163
+msgid ""
+"When this option is enabled, it adds a \"Display Tax on Stripe Checkout "
+"Form\" option to the Stripe Plan settings, allowing tax to be displayed on "
+"the Stripe checkout form."
+msgstr ""
+"Quando esta opção está ativada, ela adiciona uma opção \"Exibir Imposto no "
+"Formulário de Checkout do Stripe\" nas configurações do Plano Stripe, "
+"permitindo que o imposto seja exibido no formulário de checkout do Stripe.\n"
+
+#: includes/admin/class-settings.php:168
+msgid "Stripe"
+msgstr ""
+"Stripe\n"
+
+#: includes/admin/class-settings.php:174 um-stripe.php:142
+msgid "Stripe License Key"
+msgstr ""
+"Chave de Licença do Stripe\n"
+
+#: includes/admin/class-settings.php:254
+msgid "Importing Stripe Prices..."
+msgstr ""
+"Importando Preços do Stripe...\n"
+
+#: includes/admin/class-settings.php:255
+msgid "Already exists"
+msgstr ""
+"Já existe\n"
+
+#: includes/admin/class-settings.php:256 
+#: includes/admin/templates/user-form.php:257
+msgid "Created"
+msgstr ""
+"Criado\n"
+
+#: includes/admin/class-settings.php:257
+msgid "Manage Settings"
+msgstr ""
+"Gerenciar Configurações\n"
+
+#: includes/admin/class-settings.php:258
+msgid "Finished."
+msgstr ""
+"Finalizado.\n"
+
+#: includes/admin/class-settings.php:259
+msgid "Connect with Stripe"
+msgstr ""
+"Conectar com Stripe\n"
+
+#: includes/admin/class-settings.php:262
+msgid "Invalid Stripe API keys"
+msgstr ""
+"Chaves de API Stripe inválidas\n"
+
+#: includes/admin/class-settings.php:263
+msgid "Valid Stripe Secret Key"
+msgstr ""
+"Chave Secreta Stripe Válida\n"
+
+#: includes/admin/class-settings.php:264
+msgid "Invalid Stripe Secret key"
+msgstr ""
+"Chave Secreta Stripe inválida\n"
+
+#: includes/admin/class-settings.php:265
+msgid "Stripe connected successfully"
+msgstr ""
+"Conexão com o Stripe bem-sucedida\n"
+
+#: includes/admin/class-settings.php:266
+msgid "Invalid Stripe Publishable Key"
+msgstr ""
+"Chave Publicável Stripe inválida\n"
+
+#: includes/admin/class-settings.php:267
+msgid ""
+"When you import Stripe prices, it will create Ultimate Member Stripe Plans "
+"where each has its own settings to assign role per subscription status. "
+"Existing Stripe plans will skip the import."
+msgstr ""
+"Quando você importa preços do Stripe, serão criados Planos Stripe do "
+"Ultimate Member onde cada um tem suas próprias configurações para atribuir "
+"cargos de acordo com o status da assinatura. Planos Stripe existentes serão "
+"ignorados.\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+
+#: includes/admin/class-settings.php:268
+msgid ""
+" Invalid Webhook URL: Unable to create a Webhook Endpoint in your Stripe "
+"Account. You need a publicly accessible domain or use Stripe CLI to run in "
+"your local server."
+msgstr ""
+"URL de Webhook inválida: Não foi possível criar um Endpoint de Webhook em "
+"sua conta do Stripe. Você precisa de um domínio acessível publicamente ou "
+"usar o Stripe CLI para rodar em seu servidor local.\n"
+
+#: includes/admin/class-site-health.php:69
+msgid "Yes"
+msgstr ""
+"Sim\n"
+
+#: includes/admin/class-site-health.php:70
+msgid "No"
+msgstr ""
+"Não\n"
+
+#: includes/admin/class-site-health.php:74 
+#: includes/admin/templates/user-form.php:17
+msgid "Ultimate Member Stripe"
+msgstr ""
+"Ultimate Member Stripe\n"
+
+#: includes/admin/class-site-health.php:75
+msgid "This debug information about Ultimate Member Stripe module."
+msgstr ""
+"Essas são informações de depuração sobre o módulo Ultimate Member Stripe.\n"
+
+#: includes/admin/class-site-health.php:82
+msgid "Live Secret Key"
+msgstr ""
+"Chave Secreta Live\n"
+
+#: includes/admin/class-site-health.php:86
+msgid "Webhook Secret"
+msgstr ""
+"Segredo do Webhook\n"
+
+#: includes/admin/class-site-health.php:109
+msgid "Test Webhook Secret"
+msgstr ""
+"Segredo do Webhook de Teste\n"
+
+#: includes/admin/class-site-health.php:120
+msgid "Replace existing roles when subscription status has changed"
+msgstr ""
+"Substituir cargos existentes quando o status da assinatura tiver mudado\n"
+
+#: includes/admin/class-site-health.php:143 
+#: includes/admin/class-user-columns.php:94 includes/common/class-cpt.php:75
+msgid "Recurring"
+msgstr ""
+"Recorrente\n"
+
+#: includes/admin/class-site-health.php:144 
+#: includes/admin/class-user-columns.php:96 
+#: includes/admin/templates/user-form.php:140 includes/common/class-cpt.php:76
+msgid "One-time"
+msgstr "Pagamento único"
+
+#: includes/admin/class-site-health.php:149
+msgid "Stripe plan "
+msgstr ""
+"Plano Stripe\n"
+
+#: includes/admin/class-site-health.php:149
+msgid " settings"
+msgstr ""
+"configurações\n"
+
+#: includes/admin/class-site-health.php:150
+msgid "This debug information for your Ultimate Member Stripe plan."
+msgstr ""
+"Essas são informações de depuração sobre o plano do Ultimate Member Stripe.\n"
+
+#: includes/admin/class-site-health.php:159 includes/common/class-cpt.php:161
+msgid "Mode"
+msgstr ""
+"Modo\n"
+
+#: includes/admin/class-site-health.php:164 
+#: includes/admin/templates/list.php:146 includes/admin/templates/list.php:176
+msgid "Subscription Price"
+msgstr ""
+"Preço de Assinatura\n"
+
+#: includes/admin/class-site-health.php:169 
+#: includes/admin/templates/list.php:190
+msgid "Active Role"
+msgstr ""
+"Cargo Ativo\n"
+
+#: includes/admin/class-site-health.php:174 
+#: includes/admin/templates/list.php:199
+msgid "Unpaid Role"
+msgstr ""
+"Cargo não pago\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+
+#: includes/admin/class-site-health.php:179 
+#: includes/admin/templates/list.php:208
+msgid "Paused Role"
+msgstr ""
+"Cargo Pausado\n"
+
+#: includes/admin/class-site-health.php:184 
+#: includes/admin/templates/list.php:217
+msgid "Past Due Role"
+msgstr ""
+"Cargo Vencido\n"
+
+#: includes/admin/class-site-health.php:189
+msgid "Incomplete Expired Role"
+msgstr ""
+"Cargo Incompleto Expirado\n"
+
+#: includes/admin/class-site-health.php:194
+msgid "Incomplete Role"
+msgstr ""
+"Cargo Incompleto\n"
+
+#: includes/admin/class-site-health.php:199 
+#: includes/admin/templates/list.php:246
+msgid "Canceled Role"
+msgstr ""
+"Cargo Cancelado\n"
+
+#: includes/admin/class-site-health.php:204 
+#: includes/admin/templates/list.php:255
+msgid "Trialing Role"
+msgstr ""
+"Cargo em período de teste\n"
+
+#: includes/admin/class-site-health.php:209 
+#: includes/admin/templates/list.php:264
+msgid "Trial Period Days"
+msgstr ""
+"Dias do Período de Teste\n"
+
+#: includes/admin/class-site-health.php:231 
+#: includes/admin/class-site-health.php:232 
+#: includes/admin/class-site-health.php:233
+msgid "No predefined page"
+msgstr ""
+"Nenhuma página predefinida\n"
+
+#: includes/admin/class-subscriptions-table.php:83
+msgid "Filter: Show All Plans"
+msgstr ""
+"Filtro: Mostrar Todos os Planos\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+
+#: includes/admin/class-subscriptions-table.php:94
+msgid "Filter: Show All Types"
+msgstr ""
+"Filtro: Mostrar Todos os Tipos\n"
+
+#: includes/admin/class-subscriptions-table.php:102
+msgid "Filter: Show All Statuses"
+msgstr ""
+"Filtro: Mostrar Todos os Status\n"
+
+#: includes/admin/class-subscriptions-table.php:200 
+#: includes/admin/class-user-columns.php:79 
+#: includes/common/class-stripe.php:116
+msgid "Inactive"
+msgstr ""
+"Inativo\n"
+
+#: includes/admin/class-um-stripe-plugin.php:51
+msgid "Thank you for activating Ultimate Member's Stripe extension."
+msgstr ""
+"Obrigado por ativar a extensão Stripe do Ultimate Member.\n"
+
+#: includes/admin/class-um-stripe-plugin.php:53 
+#: includes/admin/class-um-stripe-plugin.php:69
+msgid "Click here to manage settings."
+msgstr ""
+"Clique aqui para gerenciar configurações.\n"
+
+#: includes/admin/class-um-stripe-plugin.php:67
+msgid ""
+"Your Stripe API Keys are invalid. Please add the correct keys to the "
+"Ultimate Member Stripe's settings."
+msgstr ""
+"Suas chaves de API do Stripe são inválidas. Por favor, adicione as chaves "
+"corretas nas configurações do Ultimate Member Stripe.\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+
+#: includes/admin/class-um-stripe-plugin.php:88
+msgid "Settings"
+msgstr ""
+"Configurações\n"
+
+#: includes/admin/class-user-columns.php:49
+msgid "Subscription Status"
+msgstr ""
+"Status da Assinatura\n"
+
+#: includes/admin/class-user-columns.php:101
+msgid "Refunded"
+msgstr ""
+"Reembolsado\n"
+
+#: includes/admin/class-user-columns.php:105
+msgid "Recurring via Payment Link"
+msgstr ""
+"Recorrente via Link de Pagamento\n"
+
+#: includes/admin/class-user-columns.php:107
+msgid "One-time via Payment Link"
+msgstr ""
+"Pagamento único  via Link de Pagamento\n"
+
+#: includes/admin/class-user-columns.php:116 
+#: includes/admin/class-user-columns.php:118
+msgid "View on Stripe"
+msgstr ""
+"Ver no Stripe\n"
+
+#: includes/admin/class-user-columns.php:122 
+#: includes/admin/class-user-columns.php:124
+msgid "View Payment on Stripe"
+msgstr ""
+"Ver Pagamento no Stripe\n"
+
+#: includes/admin/templates/list.php:48
+msgid "Stripe settings"
+msgstr ""
+"Configurações do Stripe\n"
+
+#. translators: 1: Price field is empty
+#: includes/admin/templates/list.php:52
+msgid "The Price IDs field is empty. You must set the API keys in the %s."
+msgstr ""
+"O campo de IDs de Preço está vazio. Você deve configurar as chaves de API em "
+"%s.\n"
+
+#: includes/admin/templates/list.php:115
+msgid ""
+"The URL will be generated and displayed here after the settings are saved."
+msgstr ""
+"A URL será gerada e exibida aqui após as configurações serem salvas.\n"
+
+#: includes/admin/templates/list.php:138 includes/common/class-cpt.php:159
+msgid "Type"
+msgstr "Tipo"
+
+#. translators: 1: Imported Subscription Price from your Stripe Account
+#: includes/admin/templates/list.php:152 includes/admin/templates/list.php:182
+msgid "Imported Subscription Price from your Stripe Account. %s"
+msgstr ""
+"Preço de Assinatura Importado da sua Conta Stripe. %s\n"
+
+#: includes/admin/templates/list.php:160
+msgid "When Payment has been SUCCEEDED, assign this role to the user"
+msgstr ""
+"Quando o Pagamento for REALIZADO, atribua este cargo ao usuário.\n"
+
+#: includes/admin/templates/list.php:168
+msgid "When Payment has been REFUNDED, assign this role to the user"
+msgstr ""
+"Quando o Pagamento for REEMBOLSADO, atribua este cargo ao usuário.\n"
+
+#: includes/admin/templates/list.php:191
+msgid "When a subscription is ACTIVE, move user to this role."
+msgstr ""
+"Quando uma assinatura está ATIVA, mova o usuário para este cargo.\n"
+
+#: includes/admin/templates/list.php:200
+msgid "When a subscription is UNPAID, move user to this role."
+msgstr ""
+"Quando uma assinatura está NÃO PAGA, mova o usuário para este cargo.\n"
+
+#: includes/admin/templates/list.php:209
+msgid "When a subscription is PAUSED, move user to this role."
+msgstr ""
+"Quando uma assinatura está PAUSADA, mova o usuário para este cargo.\n"
+
+#: includes/admin/templates/list.php:218
+msgid "When a subscription is PAST DUE, move user to this role."
+msgstr ""
+"Quando uma assinatura está VENCIDA, mova o usuário para este cargo.\n"
+
+#: includes/admin/templates/list.php:247
+msgid "When a subscription is CANCELED, move user to this role."
+msgstr ""
+"Quando uma assinatura é CANCELADA, mova o usuário para este cargo.\n"
+
+#: includes/admin/templates/list.php:256
+msgid "When a subscription is TRIALING, move user to this role."
+msgstr ""
+"Quando uma assinatura está EM PERÍODO DE TESTE, mova o usuário para este "
+"cargo.\n"
+
+#: includes/admin/templates/list.php:265
+msgid ""
+"The default number of trial days when subscribing a customer to a plan. This "
+"attribute enables the trialing functionality of the subscription plan. This "
+"will always overwrite any trials that might apply via a subscribed plan. You "
+"must set the trial end value to at least 2 days."
+msgstr ""
+"O número padrão de dias de teste ao inscrever um cliente em um plano. Este "
+"atributo habilita a funcionalidade de teste do plano de assinatura. Isso "
+"sempre sobrescreverá quaisquer testes que possam ser aplicados por meio de "
+"um plano assinado. Você deve definir o valor de término do teste para pelo "
+"menos 2 dias.\n"
+
+#: includes/admin/templates/list.php:273
+msgid "Display Promotion Code field on Stripe Checkout form"
+msgstr ""
+"Exibir campo de Código Promocional no formulário de Checkout do Stripe\n"
+
+#: includes/admin/templates/list.php:274
+msgid ""
+"This allows customers to enter Promotion Code on the Stripe Checkout form. "
+"When the selected price above has adjustable amount that's enabled in the "
+"Price settings, this option will be disabled on checkout process."
+msgstr ""
+"Isso permite que os clientes insiram um Código Promocional no formulário de "
+"Checkout do Stripe. Quando o preço selecionado acima tem um valor ajustável "
+"habilitado nas configurações de Preço, essa opção será desativada no "
+"processo de checkout.\n"
+
+#: includes/admin/templates/list.php:281
+msgid "Display Tax on Stripe Checkout form"
+msgstr ""
+"Exibir Imposto no formulário de Checkout do Stripe\n"
+
+#: includes/admin/templates/list.php:282
+msgid "This shows the tax details on the Stripe Checkout form"
+msgstr ""
+"Isso exibe os detalhes do imposto no formulário de Checkout do Stripe.\n"
+
+#: includes/admin/templates/list.php:289
+msgid "Allow Users to Switch Plan instead of Prices"
+msgstr ""
+"Permitir que os Usuários Troquem de Plano em vez de Preços\n"
+
+#: includes/admin/templates/list.php:297
+msgid ""
+"Users who have subscribed to this plan can switch to any of the chosen "
+"Stripe Plans"
+msgstr ""
+"Usuários que assinaram este plano podem alternar para qualquer um dos Planos "
+"Stripe escolhidos.\n"
+
+#: includes/admin/templates/list.php:298
+msgid ""
+"This lets users who are logged-in change the to another Stripe Plan with its "
+"Price, in this Stripe Plan. <br/><br/>Logged-in users can switch to their "
+"selected plan using the following URL:"
+msgstr ""
+"Isso permite que usuários logados alterem para outro Plano Stripe com seu "
+"Preço, neste Plano Stripe. Usuários logados podem alterar para o plano "
+"selecionado usando o seguinte URL:\n"
+
+#: includes/admin/templates/list.php:301 includes/common/class-cpt.php:114
+msgid "Add New Stripe Plans"
+msgstr ""
+"Adicionar Novos Planos do Stripe\n"
+
+#: includes/admin/templates/list.php:308
+msgid ""
+"Users who have subscribed to this plan can switch to any of the chosen "
+"Stripe Prices"
+msgstr ""
+"Usuários que assinaram este plano podem alternar para qualquer um dos Preços "
+"Stripe escolhidos.\n"
+
+#: includes/admin/templates/list.php:309
+msgid ""
+"This lets users who are logged-in change the Price in this Stripe Plan. The "
+"prices will be shown on the Stripe Customer Portal for users to switch. <br/>"
+"<br/>Logged-in users can switch to their selected prices using the following "
+"URL:"
+msgstr ""
+"Isso permite que usuários logados alterem o Preço neste Plano Stripe. Os "
+"preços serão exibidos no Portal do Cliente Stripe para que os usuários "
+"possam mudar. Usuários logados podem alterar para seus preços selecionados "
+"usando o seguinte URL:\n"
+
+#: includes/admin/templates/list.php:312
+msgid "Add New Stripe Prices"
+msgstr ""
+"Adicionar Novos Preços do Stripe\n"
+
+#: includes/admin/templates/list.php:337
+msgid "Subscription settings"
+msgstr ""
+"Configurações de Assinatura\n"
+
+#: includes/admin/templates/list.php:337
+msgid "Subscription settings documentation"
+msgstr ""
+"Documentação de configurações de Assinatura\n"
+
+#: includes/admin/templates/shortcode.php:15
+msgid "Stripe shortcode documentation"
+msgstr ""
+"Documentação do shortcode do Stripe\n"
+
+#: includes/admin/templates/url.php:26
+msgid ""
+"Use the URL below to redirect users to the Stripe Checkout with this plan"
+msgstr ""
+"Use o URL abaixo para redirecionar os usuários para o Checkout do Stripe com "
+"este plano.\n"
+
+#: includes/admin/templates/url.php:28
+msgid "Short"
+msgstr ""
+"Curto\n"
+
+#: includes/admin/templates/url.php:31
+msgid "Hashed"
+msgstr ""
+"Hashed\n"
+
+#: includes/admin/templates/url.php:34
+msgid "Switch to this Plan URL"
+msgstr ""
+"Mudar para este Plano URL\n"
+
+#. translators: 1: You must add the following webhook endpoint
+#: includes/admin/templates/user-form.php:44
+msgid ""
+"You must connect to Stripe to use this feature. Click here to <a "
+"href=\"%1$s\" class=\"um-stripe-dashboard-url\" target=\"_blank\">Connect "
+"Stripe Account</a>"
+msgstr ""
+"Você deve se conectar ao Stripe para usar este recurso. Clique aqui para <a "
+"href=\"%1$s\" class=\"um-stripe-dashboard-url\" target=\"_blank\">Conectar "
+"Conta Stripe</a>."
+
+#: includes/admin/templates/user-form.php:49
+msgid "Invalid Stripe API connection"
+msgstr ""
+"Conexão de API Stripe inválida\n"
+
+#: includes/admin/templates/user-form.php:61
+msgid "Stripe Customer"
+msgstr ""
+"Cliente Stripe\n"
+
+#: includes/admin/templates/user-form.php:77
+msgid "Stripe Plan"
+msgstr ""
+"Plano Stripe\n"
+
+#: includes/admin/templates/user-form.php:104
+msgid "Overview"
+msgstr ""
+"Visão Geral\n"
+
+#: includes/admin/templates/user-form.php:115
+msgid "Subscriptions"
+msgstr ""
+"Assinaturas\n"
+
+#: includes/admin/templates/user-form.php:115 
+#: includes/admin/templates/user-form.php:247
+msgid "Manage on Stripe"
+msgstr ""
+"Gerenciar no Stripe\n"
+
+#: includes/admin/templates/user-form.php:124
+msgid "No active subscriptions found for this customer."
+msgstr ""
+"Nenhuma assinatura ativa encontrada para este cliente.\n"
+
+#: includes/admin/templates/user-form.php:202
+msgid "Trial started on"
+msgstr ""
+"Início do período de teste\n"
+
+#: includes/admin/templates/user-form.php:203 
+#: templates/checkout/order-details.php:78
+msgid "Trial ends"
+msgstr ""
+"Fim do período de teste\n"
+
+#: includes/admin/templates/user-form.php:208
+msgid "Started on"
+msgstr ""
+"Iniciado em\n"
+
+#: includes/admin/templates/user-form.php:209
+msgid "Ends"
+msgstr ""
+"Termina\n"
+
+#: includes/admin/templates/user-form.php:213
+msgid "Date Subscribed"
+msgstr ""
+"Data de Inscrição\n"
+
+#: includes/admin/templates/user-form.php:222
+msgid "This account is currently linked to a Stripe Plan: "
+msgstr ""
+"Esta conta está atualmente vinculada a um Plano Stripe:\n"
+
+#: includes/admin/templates/user-form.php:227
+msgid ""
+"The active subscription price and selected price in the Stripe Plan settings "
+"do not match. The member will be assigned roles based on the Stripe plan "
+"settings while being charged the selected subscription price."
+msgstr ""
+"O preço da assinatura ativa e o preço selecionado nas configurações do Plano "
+"Stripe não coincidem. O membro será atribuído cargos com base nas "
+"configurações do plano Stripe enquanto é cobrado o preço de assinatura "
+"selecionado.\n"
+
+#: includes/admin/templates/user-form.php:233
+msgid "This account is not linked to a Stripe Plan."
+msgstr "Esta conta não está vinculada a um Plano Stripe."
+
+#: includes/admin/templates/user-form.php:247
+msgid "Recent Invoices"
+msgstr ""
+"Faturas Recentes\n"
+
+#: includes/admin/templates/user-form.php:252
+msgid "Amount"
+msgstr ""
+"Quantia\n"
+
+#: includes/admin/templates/user-form.php:255
+msgid "Invoice Number"
+msgstr ""
+"Número da Fatura\n"
+
+#: includes/admin/templates/user-form.php:256
+msgid "Due"
+msgstr ""
+"Devido\n"
+
+#: includes/admin/templates/user-form.php:261
+msgid "No invoices found for this customer."
+msgstr ""
+"Nenhuma fatura encontrada para este cliente.\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+
+#: includes/admin/templates/user-form.php:286
+msgid "Paid"
+msgstr "Pago"
+
+#: includes/admin/templates/user-form.php:291 
+#: includes/admin/templates/user-form.php:302
+msgid "Draft"
+msgstr "Rascunho"
+
+#: includes/admin/templates/user-form.php:296
+msgid "Failed"
+msgstr ""
+"Falhou\n"
+
+#: includes/ajax/class-checkout.php:47
+msgid "Security Check"
+msgstr ""
+"Verificação de Segurança\n"
+
+#: includes/ajax/class-checkout.php:52
+msgid "Empty subscription"
+msgstr ""
+"Assinatura vazia\n"
+
+#: includes/ajax/class-checkout.php:57
+msgid "Empty payment method types"
+msgstr ""
+"Tipos de métodos de pagamento vazios\n"
+
+#: includes/ajax/class-checkout.php:70
+msgid ""
+"Invalid payment method types in `payment_method_types` attribute of the "
+"Stripe Plan shortcode"
+msgstr ""
+"Métodos de pagamento inválidos no atributo payment_method_types do shortcode "
+"do Plano Stripe\n"
+
+#: includes/ajax/class-checkout.php:85
+msgid ""
+"Stripe Keys are not set or Stripe endpoint is disconnected in the extension "
+"settings."
+msgstr ""
+"Chaves do Stripe não configuradas ou endpoint do Stripe desconectado nas "
+"configurações da extensão.\n"
+
+#. translators: %$1s is site domain.
+#: includes/ajax/class-checkout.php:190 
+#: includes/common/class-registration.php:377
+msgid ""
+"If your E-mail address has been previously registered, a temporary E-mail "
+"address will be generated to create you an account on %s."
+msgstr ""
+"Se seu endereço de e-mail já foi registrado, um endereço de e-mail "
+"temporário será gerado para criar sua conta em %s.\n"
+
+#: includes/ajax/class-customer.php:69
+msgid "Deleted User"
+msgstr ""
+"Usuário Excluído\n"
+
+#: includes/ajax/class-customer.php:74
+msgid "This Stripe Customer is already linked to this account."
+msgstr ""
+"Este Cliente Stripe já está vinculado a esta conta.\n"
+
+#: includes/ajax/class-customer.php:157 includes/ajax/class-settings.php:427
+msgid "Security check"
+msgstr ""
+"Verificação de segurança\n"
+
+#: includes/ajax/class-metabox.php:48
+msgid "Stripe Plans Type"
+msgstr ""
+"Tipo de Planos Stripe\n"
+
+#: includes/ajax/class-metabox.php:48
+msgid "Add Stripe Plans for users to select on registraiton"
+msgstr ""
+"Adicionar Planos do Stripe para os usuários selecionarem no registro\n"
+
+#: includes/ajax/class-metabox.php:52
+msgid "Single Plan ( Visible )"
+msgstr ""
+"Plano Único (Visível)\n"
+
+#: includes/ajax/class-metabox.php:53
+msgid "Single Plan( Hidden )"
+msgstr ""
+"Plano Único (Oculto)\n"
+
+#: includes/ajax/class-metabox.php:55
+msgid "Multiple Plan Options"
+msgstr ""
+"Opções de Múltiplos Planos\n"
+
+#: includes/ajax/class-metabox.php:88
+msgid "the link "
+msgstr ""
+"o link\n"
+
+#. translators: 1: Subscription field is empty. You must create a subscription plan in %s.
+#: includes/ajax/class-metabox.php:92
+msgid "Subscription field is empty. You must create a subscription plan in %s."
+msgstr ""
+"Campo de Assinatura está vazio. Você deve criar um plano de assinatura em %s."
+"\n"
+
+#: includes/ajax/class-metabox.php:116
+msgid "Stripe Prices"
+msgstr ""
+"Preços Stripe\n"
+
+#: includes/ajax/class-metabox.php:116
+msgid "Add Stripe Plan(s) for users to select on registration"
+msgstr ""
+"Adicionar Plano(s) do Stripe para os usuários selecionarem no registro\n"
+
+#: includes/ajax/class-metabox.php:117
+msgid "Select a Plan"
+msgstr ""
+"Selecionar um Plano\n"
+
+#: includes/ajax/class-metabox.php:120
+msgid "No plans available"
+msgstr ""
+"Nenhum plano disponível\n"
+
+#: includes/ajax/class-metabox.php:145
+msgid "Add New Price"
+msgstr ""
+"Adicionar Novo Preço\n"
+
+#: includes/ajax/class-settings.php:202
+msgid "Gradual & Tiers Pricing Models are not supported yet."
+msgstr ""
+"Modelos de Preços Gradual e por Camadas ainda não são suportados.\n"
+
+#: includes/common/class-cpt.php:113
+msgid "Add New"
+msgstr ""
+"Adicionar Novo\n"
+
+#: includes/common/class-cpt.php:115
+msgid "New Stripe Plan"
+msgstr ""
+"Novo Plano Stripe\n"
+
+#: includes/common/class-cpt.php:116
+msgid "Edit"
+msgstr "Editar"
+
+#: includes/common/class-cpt.php:117
+msgid "You did not create any Stripe Plans yet"
+msgstr ""
+"Você ainda não criou nenhum Plano Stripe.\n"
+
+#: includes/common/class-cpt.php:118
+msgid "Nothing found in Trash"
+msgstr ""
+"Nada encontrado na Lixeira\n"
+
+#: includes/common/class-cpt.php:119
+msgid "Search Stripe Plans"
+msgstr ""
+"Buscar Planos Stripe\n"
+
+#: includes/common/class-cpt.php:157 templates/checkout/order-details.php:242
+msgid "Name"
+msgstr ""
+"Nome\n"
+
+#: includes/common/class-cpt.php:158
+msgid "Plan ID"
+msgstr ""
+"ID do Plano\n"
+
+#: includes/common/class-cpt.php:160
+msgid "Price"
+msgstr ""
+"Preço\n"
+
+#: includes/common/class-cpt.php:283 includes/common/class-cpt.php:284
+msgid "Stripe Plan updated."
+msgstr ""
+"Plano Stripe atualizado.\n"
+
+#: includes/common/class-cpt.php:285
+msgid "Stripe Plan created."
+msgstr ""
+"Plano Stripe criado.\n"
+
+#: includes/common/class-cpt.php:286
+msgid "Stripe Plan saved."
+msgstr ""
+"Plano Stripe salvo.\n"
+
+#: includes/common/class-cpt.php:287
+msgid "Stripe Plan draft updated."
+msgstr ""
+"Rascunho do Plano Stripe atualizado.\n"
+
+#: includes/common/class-fields.php:59
+msgid "Stripe Billing Email"
+msgstr ""
+"E-mail de Cobrança Stripe\n"
+
+#: includes/common/class-fields.php:88 includes/common/class-fields.php:109 
+#: includes/common/class-fields.php:125
+msgid "You must provide a title"
+msgstr ""
+"Você deve fornecer um título.\n"
+
+#: includes/common/class-fields.php:145
+msgid "Stripe Billing E-mail ( Unique )"
+msgstr ""
+"E-mail de Cobrança do Stripe (Único)\n"
+
+#: includes/common/class-fields.php:166
+msgid "Email address is required."
+msgstr ""
+"Endereço de e-mail é obrigatório.\n"
+
+#: includes/common/class-fields.php:168 
+#: includes/common/class-registration.php:243
+msgid ""
+"Email address is already linked to an account. Please try a different one."
+msgstr ""
+"Endereço de e-mail já vinculado a uma conta. Por favor, tente outro.\n"
+
+#: includes/common/class-pages.php:43
+msgid "Payment successful"
+msgstr ""
+"Pagamento bem-sucedido\n"
+
+#: includes/common/class-pages.php:48
+msgid "Payment canceled"
+msgstr ""
+"Pagamento cancelado\n"
+
+#: includes/common/class-pages.php:49 includes/common/class-pages.php:90
+msgid "The transaction has been cancelled. No payment has been taken."
+msgstr ""
+"A transação foi cancelada. Nenhum pagamento foi realizado.\n"
+
+#: includes/common/class-pages.php:53
+msgid "Already subscribed"
+msgstr ""
+"Já inscrito\n"
+
+#: includes/common/class-pages.php:54 includes/common/class-pages.php:92
+msgid ""
+"You already have a subscription. You can view/manage your existing "
+"subscription via your [ultimatemember_stripe_customer_portal type=\"link\" "
+"label=\"customer portal\"]."
+msgstr ""
+"Você já possui uma assinatura. Você pode visualizar/gerenciar sua assinatura "
+"existente através do seu [ultimatemember_stripe_customer_portal "
+"type=\"link\" label=\"portal do cliente\"].\n"
+
+#: includes/common/class-pages.php:58 includes/common/class-pages.php:94
+msgid "Stripe Checkout URL"
+msgstr ""
+"URL do Checkout Stripe\n"
+
+#: includes/common/class-pages.php:63 templates/account/billings.php:26 
+#: templates/checkout/order-details.php:315
+msgid "Customer Portal"
+msgstr ""
+"Portal do Cliente\n"
+
+#: includes/common/class-pages.php:69
+msgid "Payment Checkout"
+msgstr ""
+"Checkout de Pagamento\n"
+
+#: includes/common/class-pages.php:96
+msgid "Stripe Customer Portal"
+msgstr ""
+"Portal do Cliente Stripe\n"
+
+#: includes/common/class-pages.php:99
+msgid "[ultimatemember_stripe_payment_checkout_form]"
+msgstr ""
+"[ultimatemember_stripe_payment_checkout_form]\n"
+
+#. translators: %1%s is Email, %$2s is site domain.
+#: includes/common/class-registration.php:375
+msgid ""
+"If your E-mail address( %1$s ) has been previously registered, a temporary E-"
+"mail address will be generated to create an account on %2$s."
+msgstr ""
+"Se seu endereço de e-mail (%1$s) já foi registrado, um endereço de e-mail "
+"temporário será gerado para criar uma conta em %2$s.\n"
+
+#: includes/common/class-registration.php:748 
+#: includes/common/class-request-handler.php:1572
+msgid "Hello, Stripe Webhook!"
+msgstr ""
+"Olá, Webhook do Stripe!\n"
+
+#: includes/common/class-request-handler.php:1557
+msgid ""
+"Sorry, this Stripe Plan is inactive. Please contact the site administrator."
+msgstr ""
+"Desculpe, este Plano Stripe está inativo. Por favor, entre em contato com o "
+"administrador do site.\n"
+
+#: includes/common/class-stripe.php:110
+msgid "Active"
+msgstr ""
+"Ativo\n"
+
+#: includes/common/class-stripe.php:111
+msgid "Unpaid"
+msgstr ""
+"Não pago\n"
+
+#: includes/common/class-stripe.php:112
+msgid "Paused"
+msgstr ""
+"Pausado\n"
+
+#: includes/common/class-stripe.php:113
+msgid "Past Due"
+msgstr "Vencido"
+
+#: includes/common/class-stripe.php:114
+msgid "Canceled"
+msgstr ""
+"Cancelado\n"
+
+#: includes/common/class-stripe.php:115
+msgid "Trialing"
+msgstr ""
+"Em período de teste\n"
+
+#: includes/common/class-stripe.php:117
+msgid "Revoked"
+msgstr ""
+"Revogado\n"
+
+#: includes/common/class-stripe.php:389
+msgid "Stripe API error"
+msgstr ""
+"Erro na API do Stripe\n"
+
+#: includes/frontend/class-account.php:38
+msgid "Billing"
+msgstr ""
+"Cobrança\n"
+
+#: includes/frontend/class-account.php:56
+msgid "Stripe API keys hasn't been set."
+msgstr ""
+"Chaves de API do Stripe não foram configuradas.\n"
+
+#: includes/frontend/class-shortcode.php:64
+msgid "Pay with Card"
+msgstr ""
+"Pagar com Cartão\n"
+
+#: includes/frontend/class-shortcode.php:82
+msgid "You're already subscribed"
+msgstr ""
+"Você já está inscrito.\n"
+
+#: includes/frontend/class-shortcode.php:119
+msgid "Manage billing"
+msgstr ""
+"Gerenciar cobrança\n"
+
+#. translators: %s is a content name or page type
+#: includes/frontend/class-shortcode.php:272 
+#: includes/frontend/class-shortcode.php:278
+msgid ""
+"You no longer have an active subscription. Please reactivate your "
+"subscription to view this %s."
+msgstr ""
+"Você não possui uma assinatura ativa no momento. Por favor, reative sua "
+"assinatura para visualizar este %s.\n"
+
+#. translators: %$1s is a content name or page type, %$2s is a content name or page type
+#. translators: %s is a content name or page type, %2s is a content name or page type
+#: includes/frontend/class-shortcode.php:327 
+#: includes/frontend/class-shortcode.php:330
+msgid ""
+"Your current subscription plan does not provide access to this %1$s. Please "
+"upgrade or subscribe to a different plan to view this %2$s."
+msgstr ""
+"Seu plano de assinatura atual não fornece acesso a este %1$s. Por favor, "
+"atualize ou assine um plano diferente para visualizar este %2$s.\n"
+
+#. translators: %s is the site name.
+#: templates/account/billings.php:20
+msgid ""
+"%s partners with Stripe for simplified billing. The customer portal is a "
+"secure, Stripe-hosted page that allows you manage your subscription and "
+"billing information."
+msgstr ""
+"%s faz parceria com o Stripe para simplificar a cobrança. O portal do "
+"cliente é uma página segura hospedada pelo Stripe que permite gerenciar sua "
+"assinatura e informações de cobrança.\n"
+
+#: templates/checkout/order-details.php:64
+msgid ""
+"Your payment has been processed successfully. Details of the transaction are "
+"below."
+msgstr ""
+"Seu pagamento foi processado com sucesso. Detalhes da transação estão abaixo."
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+
+#: templates/checkout/order-details.php:66
+msgid "Subscription #"
+msgstr "Assinatura #"
+
+#: templates/checkout/order-details.php:73
+msgid "Status"
+msgstr ""
+"Status\n"
+
+#: templates/checkout/order-details.php:95
+msgid "Plan"
+msgstr ""
+"Plano\n"
+
+#: templates/checkout/order-details.php:106
+msgid "Start Date"
+msgstr ""
+"Data de Início\n"
+
+#: templates/checkout/order-details.php:128
+msgid "Next Payment"
+msgstr ""
+"Próximo Pagamento\n"
+
+#: templates/checkout/order-details.php:139
+msgid "Order Details"
+msgstr ""
+"Detalhes do Pedido\n"
+
+#: templates/checkout/order-details.php:145
+msgid "Product"
+msgstr ""
+"Produto\n"
+
+#: templates/checkout/order-details.php:146 
+#: templates/checkout/order-details.php:207
+msgid "Total"
+msgstr ""
+"Total\n"
+
+#: templates/checkout/order-details.php:159
+msgid "x"
+msgstr "x"
+
+#: templates/checkout/order-details.php:178
+msgid "Subtotal"
+msgstr ""
+"Subtotal\n"
+
+#: templates/checkout/order-details.php:185
+msgid "Tax"
+msgstr ""
+"Imposto\n"
+
+#: templates/checkout/order-details.php:197
+msgid "Discount"
+msgstr ""
+"Desconto\n"
+
+#: templates/checkout/order-details.php:211
+msgid "Payment Method"
+msgstr ""
+"Método de Pagamento\n"
+
+#: templates/checkout/order-details.php:214
+msgid "Ending in "
+msgstr ""
+"Terminando em\n"
+
+#: templates/checkout/order-details.php:222
+msgid "Download Invoice & Receipt"
+msgstr ""
+"Baixar Fatura e Recibo\n"
+
+#: templates/checkout/order-details.php:236
+msgid "Billing Information"
+msgstr ""
+"Informações de Cobrança\n"
+
+#: templates/checkout/order-details.php:248
+msgid "Email Address"
+msgstr ""
+"Endereço de E-mail\n"
+
+#: templates/checkout/order-details.php:257
+msgid "Phone"
+msgstr "Telefone"
+
+#: templates/checkout/order-details.php:269
+msgid "Tax ID"
+msgid_plural "Tax IDs"
+msgstr[0] ""
+"ID Fiscal\n"
+msgstr[1] ""
+"ID's Fiscais\n"
+
+#: templates/checkout/order-details.php:285
+msgid "Address"
+msgstr ""
+"Endereço\n"
+
+#: templates/checkout/order-details.php:316
+msgid "Edit Billing Information"
+msgstr ""
+"Editar Informações de Cobrança\n"
+
+#. translators: 1: The %s extension requires the Ultimate Member plugin to be activated to work properly
+#: um-stripe.php:69 um-stripe.php:100
+msgid ""
+"The <strong>%s</strong> extension requires the Ultimate Member plugin to be "
+"activated to work properly. You can download it <a href=\"https://wordpress."
+"org/plugins/ultimate-member\">here</a>"
+msgstr ""
+"A extensão <strong>%s</strong> requer que o plugin Ultimate Member esteja "
+"ativado para funcionar corretamente. Você pode baixá-lo <a href=\"https:"
+"//wordpress.org/plugins/ultimate-member\">aqui</a>."
+
+#. translators: 1: The %s extension requires 7.4 or better
+#: um-stripe.php:165
+msgid ""
+"The <strong>%s</strong> extension requires <strong>PHP 7.4 or better</strong>"
+" installed on your server."
+msgstr ""
+"A extensão <strong>%s</strong> requer <strong>PHP 7.4 ou superior</strong> "
+"instalado no seu servidor."
+
+#: assets/js/overlay.js:5
+msgid "Transaction completed successfuly"
+msgstr ""
+"Transação concluída com sucesso\n"
+
+#: assets/js/overlay.js:6
+msgid "Redirecting you to the next page..."
+msgstr ""
+"Redirecionando você para a próxima página...\n"

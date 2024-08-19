@@ -1,0 +1,328 @@
+# Copyright (C) 2024 Ultimate Member
+# This file is distributed under the same license as the Ultimate Member - User Tags plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Ultimate Member - User Tags 2.2.9\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/user-tags\n"
+"Last-Translator: Vitor Duarte\n"
+"Language-Team: Português do Brasil\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-05-21T18:02:12+00:00\n"
+"PO-Revision-Date: 2024-08-19 14:34+0000\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Domain: um-user-tags\n"
+"Language: pt-BR\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Loco-Version: 2.6.11; wp-6.6.1"
+
+#. Plugin Name of the plugin
+#: um-user-tags.php includes/core/um-user-tags-widget.php:16
+msgid "Ultimate Member - User Tags"
+msgstr ""
+"Ultimate Member - Tags de Usuário\n"
+
+#. Plugin URI of the plugin
+#: um-user-tags.php
+msgid "https://ultimatemember.com/extensions/user-tags"
+msgstr ""
+"https://ultimatemember.com/extensions/user-tags\n"
+
+#. Description of the plugin
+#: um-user-tags.php
+msgid "Allow users to add tags to their profiles easily"
+msgstr ""
+"Permitir que os usuários adicionem tags aos seus perfis facilmente\n"
+
+#. Author of the plugin
+#: um-user-tags.php
+msgid "Ultimate Member"
+msgstr ""
+"Ultimate Member\n"
+
+#. Author URI of the plugin
+#: um-user-tags.php
+msgid "https://ultimatemember.com/"
+msgstr ""
+"https://ultimatemember.com/\n"
+
+#: includes/admin/templates/dashboard.php:14
+msgid "Run this task from time to time to keep user tags count fresh."
+msgstr ""
+"Execute esta tarefa de vez em quando para manter a contagem de tags de "
+"usuário atualizada.\n"
+
+#: includes/admin/templates/dashboard.php:18
+msgid "Clear user tags cache"
+msgstr ""
+"Limpar cache de tags de usuário\n"
+
+#: includes/admin/templates/directory/user-tags.php:16
+msgid "Show only users with current tags"
+msgstr ""
+"Mostrar apenas usuários com as tags atuais\n"
+
+#: includes/admin/templates/directory/user-tags.php:60 
+#: includes/admin/templates/role/user-tags.php:78
+msgid "You did not create any user tags fields yet."
+msgstr ""
+"Você ainda não criou nenhum campo de tags de usuário.\n"
+
+#: includes/admin/templates/role/user-tags.php:49
+msgid "Show user tags in profile head?"
+msgstr ""
+"Mostrar tags de usuário no cabeçalho do perfil?\n"
+
+#: includes/admin/templates/role/user-tags.php:59
+msgid "Choose the user tags source to show in profile header"
+msgstr ""
+"Escolha a fonte de tags de usuário a ser exibida no cabeçalho do perfil\n"
+
+#: includes/admin/templates/role/user-tags.php:68
+msgid "Can add tags?"
+msgstr ""
+"Pode adicionar tags?\n"
+
+#: includes/admin/templates/role/user-tags.php:69
+msgid "Can this role add custom tag?"
+msgstr ""
+"Este cargo pode adicionar tags personalizadas?\n"
+
+#: includes/core/actions/um-user-tags-fields.php:20
+msgid "Select a user tags source"
+msgstr ""
+"Selecionar uma fonte de tags de usuário\n"
+
+#: includes/core/actions/um-user-tags-fields.php:21
+msgid "Choose the user tags type that user can select from"
+msgstr ""
+"Escolha o tipo de tags de usuário que o usuário pode selecionar\n"
+
+#. translators: %s is a field title
+#: includes/core/actions/um-user-tags-profile.php:42
+msgid "%s is required."
+msgstr ""
+"%s é obrigatório.\n"
+
+#: includes/core/class-user-tags-admin.php:123
+msgid "Your user tags cache is now removed."
+msgstr ""
+"Seu cache de tags de usuário foi removido.\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+
+#: includes/core/class-user-tags-admin.php:141 
+#: includes/core/um-user-tags-widget.php:144
+msgid "Count"
+msgstr ""
+"Contagem\n"
+
+#: includes/core/class-user-tags-admin.php:183
+msgid "View members"
+msgstr ""
+"Ver membros\n"
+
+#: includes/core/class-user-tags-admin.php:215 
+#: includes/core/class-user-tags-admin.php:229 
+#: includes/core/class-user-tags-admin.php:297 
+#: includes/core/class-user-tags-taxonomies.php:77 
+#: includes/core/class-user-tags-taxonomies.php:92 
+#: includes/core/filters/um-user-tags-fields.php:137 
+#: includes/core/um-user-tags-widget.php:75
+msgid "User Tags"
+msgstr ""
+"Tags de Usuário\n"
+
+#: includes/core/class-user-tags-admin.php:242 um-user-tags.php:84
+msgid "User Tags License Key"
+msgstr ""
+"Chave de Licença de Tags de Usuário\n"
+
+#: includes/core/class-user-tags-admin.php:258
+msgid "(None)"
+msgstr ""
+"(None)\n"
+
+#: includes/core/class-user-tags-admin.php:270
+msgid "User tag slug"
+msgstr ""
+"Slug da tag de usuário\n"
+
+#: includes/core/class-user-tags-admin.php:271
+msgid "Base permalink for user tag"
+msgstr ""
+"Permalink base para a tag de usuário\n"
+
+#: includes/core/class-user-tags-admin.php:272
+msgid ""
+"Once this setting is changed you should update WordPress rewrite rules. Go "
+"to the page [Settings > Permalinks] and click the \"Save Changes\" button."
+msgstr ""
+"Uma vez que esta configuração seja alterada, você deve atualizar as regras "
+"de reescrita do WordPress. Vá para a página [Configurações > Links "
+"Permanentes] e clique no botão \"Salvar Alterações\".\n"
+
+#: includes/core/class-user-tags-admin.php:278
+msgid "Maximum number of tags to display in user profile"
+msgstr ""
+"Número máximo de tags a serem exibidas no perfil do usuário\n"
+
+#: includes/core/class-user-tags-admin.php:279
+msgid "Remaining tags will appear by clicking on a link"
+msgstr ""
+"Tags restantes aparecerão clicando em um link\n"
+
+#: includes/core/class-user-tags-admin.php:289
+msgid "Base member directory"
+msgstr ""
+"Diretório base de membros\n"
+
+#: includes/core/class-user-tags-admin.php:290
+msgid ""
+"Select base member directory to use its settings for displaying users with "
+"this tag"
+msgstr ""
+"Selecionar diretório base de membros para usar suas configurações para "
+"exibir usuários com esta tag\n"
+
+#: includes/core/class-user-tags-shortcode.php:95
+msgid "There are no tags to display."
+msgstr ""
+"Não há tags para exibir.\n"
+
+#: includes/core/class-user-tags-taxonomies.php:78
+msgid "User Tag"
+msgstr ""
+"Tag de Usuário\n"
+
+#: includes/core/class-user-tags-taxonomies.php:79
+msgid "Search User Tags"
+msgstr ""
+"Pesquisar Tags de Usuário\n"
+
+#: includes/core/class-user-tags-taxonomies.php:80
+msgid "Popular User Tags"
+msgstr ""
+"Tags de Usuário Populares\n"
+
+#: includes/core/class-user-tags-taxonomies.php:81
+msgid "All User Tags"
+msgstr ""
+"Todas as Tags de Usuário\n"
+
+#: includes/core/class-user-tags-taxonomies.php:84
+msgid "Edit User Tag"
+msgstr ""
+"Editar Tag de Usuário\n"
+
+#: includes/core/class-user-tags-taxonomies.php:85
+msgid "Update User Tag"
+msgstr ""
+"Atualizar Tag de Usuário\n"
+
+#: includes/core/class-user-tags-taxonomies.php:86
+msgid "Add New User Tag"
+msgstr ""
+"Adicionar Nova Tag de Usuário\n"
+
+#: includes/core/class-user-tags-taxonomies.php:87
+msgid "New User Tag Name"
+msgstr ""
+"Novo Nome de Tag de Usuário\n"
+
+#: includes/core/class-user-tags-taxonomies.php:88
+msgid "Separate user tags with commas"
+msgstr ""
+"Separe as tags de usuário com vírgulas\n"
+
+#: includes/core/class-user-tags-taxonomies.php:89
+msgid "Add or remove user tags"
+msgstr ""
+"Adicionar ou remover tags de usuário\n"
+
+#: includes/core/class-user-tags-taxonomies.php:90
+msgid "Choose from the most used user tags"
+msgstr ""
+"Escolha entre as tags de usuário mais usadas\n"
+
+#: includes/core/class-user-tags-taxonomies.php:91
+msgid "No user tags found."
+msgstr ""
+"Nenhuma tag de usuário encontrada.\n"
+
+#: includes/core/filters/um-user-tags-fields.php:144
+msgid "You must provide a title"
+msgstr ""
+"Você deve fornecer um título\n"
+
+#: includes/core/um-user-tags-widget.php:19
+msgid "Display user tags in a widget"
+msgstr ""
+"Exibir tags de usuário em um widget\n"
+
+#: includes/core/um-user-tags-widget.php:107
+msgid "Title:"
+msgstr ""
+"Título:\n"
+
+#: includes/core/um-user-tags-widget.php:116
+msgid "Select the user tags type:"
+msgstr ""
+"Selecionar o tipo de tags de usuário:\n"
+
+#: includes/core/um-user-tags-widget.php:127
+msgid "Select the user field:"
+msgstr ""
+"Selecionar o campo de usuário:\n"
+
+#: includes/core/um-user-tags-widget.php:141
+msgid "Order tags by:"
+msgstr ""
+"Ordenar tags por:\n"
+
+#: includes/core/um-user-tags-widget.php:143
+msgid "Name"
+msgstr "Nome"
+
+#: includes/core/um-user-tags-widget.php:145
+msgid "ID"
+msgstr ""
+"ID\n"
+
+#: includes/core/um-user-tags-widget.php:150
+msgid "Maximum number of tags to show:"
+msgstr ""
+"Número máximo de tags a serem exibidas:\n"
+
+#. translators: %s is a user tag name
+#: templates/tags.php:40
+msgid "%s"
+msgstr ""
+"%s\n"
+
+#. translators: %s is a count of remaining tags in pagination
+#: templates/tags.php:61
+msgid "%s more"
+msgstr ""
+"%s a mais\n"
+
+#. translators: %s is the User Tags extension name.
+#: um-user-tags.php:51 um-user-tags.php:68
+msgid ""
+"The <strong>%s</strong> extension requires the Ultimate Member plugin to be "
+"activated to work properly. You can download it <a href=\"https://wordpress."
+"org/plugins/ultimate-member\">here</a>"
+msgstr ""
+"A extensão <strong>%s</strong> requer que o plugin Ultimate Member esteja "
+"ativado para funcionar corretamente. Você pode baixá-lo <a href=\"https:"
+"//wordpress.org/plugins/ultimate-member\">aqui</a>.\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"

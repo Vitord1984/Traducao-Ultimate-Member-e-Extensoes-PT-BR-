@@ -1,0 +1,277 @@
+# Copyright (C) 2024 Ultimate Member
+# This file is distributed under the same license as the Ultimate Member - Profile tabs plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Ultimate Member - Profile tabs 1.1.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/profile-tabs\n"
+"Last-Translator: Vitor Duarte\n"
+"Language-Team: Português do Brasil\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-05-21T17:45:48+00:00\n"
+"PO-Revision-Date: 2024-08-17 20:25+0000\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Domain: um-profile-tabs\n"
+"Language: pt-BR\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Loco-Version: 2.6.11; wp-6.6.1"
+
+#. Plugin Name of the plugin
+#: um-profile-tabs.php
+msgid "Ultimate Member - Profile tabs"
+msgstr ""
+"Ultimate Member - Abas de Perfil\n"
+
+#. Plugin URI of the plugin
+#: um-profile-tabs.php
+msgid "http://ultimatemember.com/extensions/profile-tabs"
+msgstr ""
+"http://ultimatemember.com/extensions/profile-tabs\n"
+
+#. Description of the plugin
+#: um-profile-tabs.php
+msgid "Adds custom tabs to user profile."
+msgstr ""
+"Adiciona abas personalizadas ao perfil do usuário.\n"
+
+#. Author of the plugin
+#: um-profile-tabs.php
+msgid "Ultimate Member"
+msgstr ""
+"Ultimate Member\n"
+
+#. Author URI of the plugin
+#: um-profile-tabs.php
+msgid "http://ultimatemember.com/"
+msgstr ""
+"http://ultimatemember.com/\n"
+
+#: includes/admin/class-admin.php:49 um-profile-tabs.php:91
+msgid "Profile tabs License Key"
+msgstr ""
+"Chave de Licença das Abas de Perfil\n"
+
+#: includes/admin/class-admin.php:80
+msgid "Profile Tabs Order"
+msgstr ""
+"Ordem das Abas de Perfil\n"
+
+#: includes/admin/class-admin.php:84
+msgid ""
+"Pay an attention that default tab ignore the order and will be displayed the "
+"first"
+msgstr ""
+"Preste atenção que a aba padrão ignora a ordem e será exibida em primeiro\n"
+
+#: includes/admin/class-admin.php:94 includes/core/class-common.php:32 
+#: includes/core/class-common.php:33 includes/core/class-common.php:50
+msgid "Profile Tabs"
+msgstr ""
+"Abas de Perfil\n"
+
+#: includes/admin/class-admin.php:178
+msgid "Display Settings"
+msgstr ""
+"Configurações de Exibição\n"
+
+#: includes/admin/class-admin.php:186
+msgid "Customize this tab"
+msgstr ""
+"Personalize esta aba\n"
+
+#: includes/admin/class-admin.php:194
+msgid "Pre-defined content"
+msgstr ""
+"Conteúdo pré-definido\n"
+
+#: includes/admin/class-admin.php:367
+msgid "Your icons in the Ultimate Member Profile Tabs are out of date."
+msgstr ""
+"Seus ícones nas Abas de Perfil do Ultimate Member estão desatualizados.\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+
+#: includes/admin/class-admin.php:373
+msgid "Related to Ultimate Member Profile Tabs: "
+msgstr ""
+"Relacionado às Abas de Perfil do Ultimate Member:\n"
+
+#: includes/admin/class-admin.php:395
+msgid "Edit profile tabs and update"
+msgstr ""
+"Editar abas de perfil e atualizar\n"
+
+#: includes/admin/templates/profile-tab/access.php:13 
+#: includes/admin/templates/profile-tab/icon.php:16 
+#: includes/admin/templates/profile-tab/um-form.php:13
+msgid "These settings are obtained from a Profile tab in the default language"
+msgstr ""
+"Essas configurações são obtidas de uma Aba de Perfil no idioma padrão\n"
+
+#: includes/admin/templates/profile-tab/access.php:46
+msgid "Show on these roles profiles"
+msgstr ""
+"Mostrar nestes cargos de perfil\n"
+
+#: includes/admin/templates/profile-tab/access.php:47
+msgid ""
+"You could select the roles which have the current profile tab at their form. "
+"If empty, profile tab is visible for all roles at their forms."
+msgstr ""
+"Você pode selecionar os cargos que têm a aba de perfil atual em seu "
+"formulário. Se estiver vazio, a aba de perfil será visível para todos os "
+"cargos em seus formulários.\n"
+
+#: includes/admin/templates/profile-tab/access.php:55
+msgid "Show on these profiles forms"
+msgstr ""
+"Mostrar nestes formulários de perfil\n"
+
+#: includes/admin/templates/profile-tab/access.php:56
+msgid ""
+"You could select the forms where the current profile tab is visible. If "
+"empty, profile tab is visible for all forms."
+msgstr ""
+"Você pode selecionar os formulários onde a aba de perfil atual é visível. Se "
+"estiver vazio, a aba de perfil será visível para todos os formulários.\n"
+
+#: includes/admin/templates/profile-tab/access.php:63
+msgid "More profile menu settings you could set <a href=\"%s\">here</a>"
+msgstr ""
+"Mais configurações do menu de perfil que você pode definir <a href=\"%s\">"
+"aqui</a>"
+
+#: includes/admin/templates/profile-tab/icon.php:42
+msgid "Icon"
+msgstr ""
+"Ícone\n"
+
+#: includes/admin/templates/profile-tab/icon.php:48
+msgid "Link type"
+msgstr ""
+"Tipo de link\n"
+
+#: includes/admin/templates/profile-tab/icon.php:51
+msgid "Internal"
+msgstr "Interno"
+
+#: includes/admin/templates/profile-tab/icon.php:52
+msgid "Remote"
+msgstr "Remoto"
+
+#: includes/admin/templates/profile-tab/icon.php:58
+msgid "Slug"
+msgstr ""
+"Slug\n"
+
+#: includes/admin/templates/profile-tab/icon.php:65
+msgid "Remote Link"
+msgstr ""
+"Link Remoto\n"
+
+#: includes/admin/templates/profile-tab/um-form.php:30
+msgid "No form"
+msgstr ""
+"Sem formulário\n"
+
+#: includes/admin/templates/profile-tab/um-form.php:52
+msgid "Custom Profile Form"
+msgstr ""
+"Formulário de Perfil Personalizado\n"
+
+#: includes/core/class-common.php:30
+msgctxt "Post Type General Name"
+msgid "Profile Tabs"
+msgstr "Abas de Perfil"
+
+#: includes/core/class-common.php:31
+msgctxt "Post Type Singular Name"
+msgid "Profile tab"
+msgstr "Aba de Perfil"
+
+#: includes/core/class-common.php:34
+msgid "Item Archives"
+msgstr ""
+"Arquivos de Item\n"
+
+#: includes/core/class-common.php:35
+msgid "Item Attributes"
+msgstr ""
+"Atributos de Item\n"
+
+#: includes/core/class-common.php:36
+msgid "Parent Item:"
+msgstr ""
+"Item Pai:\n"
+
+#: includes/core/class-common.php:37
+msgid "All Items"
+msgstr ""
+"Todos os Itens\n"
+
+#: includes/core/class-common.php:38
+msgid "Add New Item"
+msgstr ""
+"Adicionar Novo Item\n"
+
+#: includes/core/class-common.php:39
+msgid "Add New"
+msgstr ""
+"Adicionar Novo\n"
+
+#: includes/core/class-common.php:40
+msgid "New Item"
+msgstr ""
+"Novo Item\n"
+
+#: includes/core/class-common.php:41
+msgid "Edit Item"
+msgstr ""
+"Editar Item\n"
+
+#: includes/core/class-common.php:42
+msgid "Update Item"
+msgstr ""
+"Atualizar Item\n"
+
+#: includes/core/class-common.php:43
+msgid "View Item"
+msgstr ""
+"Ver Item\n"
+
+#: includes/core/class-common.php:44
+msgid "View Items"
+msgstr ""
+"Ver Itens\n"
+
+#: includes/core/class-common.php:45
+msgid "Search Item"
+msgstr ""
+"Pesquisar Item\n"
+
+#: includes/core/class-common.php:46
+msgid "Not found"
+msgstr ""
+"Não encontrado\n"
+
+#: includes/core/class-common.php:51
+msgid ""
+"Profile tabs are used for the customizing Ultimate Member - Profile > "
+"Profile Menu."
+msgstr ""
+"Abas de perfil são usadas para personalizar Ultimate Member - Perfil > Menu "
+"de Perfil.\n"
+
+#: includes/core/class-profile.php:409
+msgid "Update"
+msgstr ""
+"Atualizar\n"
+
+#: includes/core/class-profile.php:425
+msgid "Edit"
+msgstr "Editar"

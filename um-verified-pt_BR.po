@@ -1,0 +1,284 @@
+# Copyright (C) 2024 Ultimate Member
+# This file is distributed under the same license as the Ultimate Member - Verified Users plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Ultimate Member - Verified Users 2.2.3\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/verified-users\n"
+"Last-Translator: Vitor Duarte\n"
+"Language-Team: Português do Brasil\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-05-21T18:14:44+00:00\n"
+"PO-Revision-Date: 2024-08-19 14:39+0000\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Domain: um-verified\n"
+"Language: pt-BR\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Loco-Version: 2.6.11; wp-6.6.1"
+
+#. Plugin Name of the plugin
+#: um-verified-users.php
+msgid "Ultimate Member - Verified Users"
+msgstr ""
+"Ultimate Member - Usuários Verificados\n"
+
+#. Plugin URI of the plugin
+#: um-verified-users.php
+msgid "https://ultimatemember.com/extensions/verified-users"
+msgstr ""
+"https://ultimatemember.com/extensions/verified-users\n"
+
+#. Description of the plugin
+#: um-verified-users.php
+msgid ""
+"Allow users to get verified and have a verification badge next to their name"
+msgstr ""
+"Permitir que os usuários se verifiquem e tenham um distintivo de verificação "
+"ao lado do nome\n"
+
+#. Author of the plugin
+#: um-verified-users.php
+msgid "Ultimate Member"
+msgstr ""
+"Ultimate Member\n"
+
+#. Author URI of the plugin
+#: um-verified-users.php
+msgid "https://ultimatemember.com/"
+msgstr ""
+"https://ultimatemember.com/\n"
+
+#: includes/admin/templates/role/verified.php:19
+msgid "Users with this role will automatically have a verified account"
+msgstr ""
+"Usuários com este cargo terão automaticamente uma conta verificada\n"
+
+#: includes/admin/templates/role/verified.php:22 
+#: includes/admin/templates/role/verified.php:32 
+#: includes/core/um-verified-users-filters.php:224
+msgid "No"
+msgstr ""
+"Não\n"
+
+#: includes/admin/templates/role/verified.php:23 
+#: includes/admin/templates/role/verified.php:33 
+#: includes/core/um-verified-users-filters.php:225
+msgid "Yes"
+msgstr "Sim"
+
+#: includes/admin/templates/role/verified.php:29
+msgid "Prevent users with this role from requesting verification?"
+msgstr ""
+"Impedir que usuários com este cargo solicitem verificação?\n"
+
+#: includes/core/class-verified-users-main-api.php:220 
+#: includes/core/um-verified-users-filters.php:270
+msgid "Verified Account"
+msgstr ""
+"Conta Verificada\n"
+
+#: includes/core/class-verified-users-member-directory.php:49
+msgid "Only show members who have verified their profile"
+msgstr ""
+"Mostrar apenas membros que verificaram seu perfil\n"
+
+#: includes/core/class-verified-users-member-directory.php:65
+msgid "Verified accounts first"
+msgstr ""
+"Contas verificadas primeiro\n"
+
+#: includes/core/class-verified-users-member-directory.php:66
+msgid "Not verified accounts first"
+msgstr ""
+"Mostrar contas não verificadas primeiro\n"
+
+#: includes/core/class-verified-users-setup.php:45
+msgid "Congratulations! Your account is now verified."
+msgstr ""
+"Parabéns! Sua conta agora está verificada.\n"
+
+#: includes/core/um-verified-users-actions.php:222 
+#: includes/core/um-verified-users-actions.php:226 
+#: includes/core/um-verified-users-actions.php:247 
+#: includes/core/um-verified-users-actions.php:251
+msgid "Security check"
+msgstr ""
+"Verificação de segurança\n"
+
+#: includes/core/um-verified-users-actions.php:375 
+#: includes/core/um-verified-users-actions.php:412
+msgid "Unauthorized."
+msgstr ""
+"Não autorizado.\n"
+
+#: includes/core/um-verified-users-actions.php:381
+msgid "You are not allowed to do this action."
+msgstr ""
+"Você não tem permissão para realizar esta ação.\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+
+#: includes/core/um-verified-users-actions.php:539
+msgid "Verified options"
+msgstr ""
+"Opções Verificadas\n"
+
+#: includes/core/um-verified-users-actions.php:539 
+#: assets/js/admin/block-restrictions.js:46
+msgid "Lock to verified accounts only"
+msgstr ""
+"Bloquear apenas para contas verificadas\n"
+
+#: includes/core/um-verified-users-filters.php:15
+msgid "Mark accounts as verified"
+msgstr ""
+"Marcar contas como verificadas\n"
+
+#: includes/core/um-verified-users-filters.php:16
+msgid "Mark accounts as unverified"
+msgstr ""
+"Marcar contas como não verificadas\n"
+
+#: includes/core/um-verified-users-filters.php:33
+msgid "Verified Users"
+msgstr ""
+"Usuários Verificados\n"
+
+#: includes/core/um-verified-users-filters.php:56
+msgid "Verify"
+msgstr ""
+"Verificar\n"
+
+#: includes/core/um-verified-users-filters.php:58
+msgid "Approve verification request"
+msgstr ""
+"Aprovar solicitação de verificação\n"
+
+#: includes/core/um-verified-users-filters.php:59
+msgid "Reject verification request"
+msgstr ""
+"Rejeitar solicitação de verificação\n"
+
+#: includes/core/um-verified-users-filters.php:61
+msgid "Unverify"
+msgstr ""
+"Desverificar\n"
+
+#: includes/core/um-verified-users-filters.php:129
+msgid "Account Verifications"
+msgstr ""
+"Verificações de Conta\n"
+
+#: includes/core/um-verified-users-filters.php:166 
+#: templates/account_info.php:26 templates/profile_info.php:19
+msgid "Request Verification"
+msgstr ""
+"Solicitar Verificação\n"
+
+#: includes/core/um-verified-users-filters.php:181
+msgid "User account is verified"
+msgstr ""
+"Conta de usuário verificada\n"
+
+#: includes/core/um-verified-users-filters.php:182
+msgid "When my account gets verified"
+msgstr ""
+"Quando minha conta for verificada\n"
+
+#: includes/core/um-verified-users-filters.php:219
+msgid "Verify user account"
+msgstr ""
+"Verificar conta de usuário\n"
+
+#: includes/core/um-verified-users-filters.php:220
+msgid "Verify the user's account when he/she completes his/her profile."
+msgstr ""
+"Verifique a conta do usuário quando ele/ela completar seu perfil.\n"
+
+#: includes/core/um-verified-users-filters.php:265
+msgid "Account Verification"
+msgstr ""
+"Verificação de Conta\n"
+
+#: includes/core/um-verified-users-filters.php:269
+msgid "Unverified Account"
+msgstr ""
+"Conta Não Verificada\n"
+
+#: includes/core/um-verified-users-filters.php:298 
+#: includes/core/um-verified-users-filters.php:323 
+#: includes/core/um-verified-users-filters.php:332
+msgid "Lock content to verified accounts only?"
+msgstr ""
+"Bloquear conteúdo apenas para contas verificadas?\n"
+
+#: includes/core/um-verified-users-filters.php:392
+msgid "Verified Accounts"
+msgstr ""
+"Contas Verificadas\n"
+
+#: includes/core/um-verified-users-filters.php:493
+msgid "Verified Lock"
+msgstr ""
+"Bloqueio Verificado\n"
+
+#: includes/core/um-verified-users-init.php:148
+msgid "Account is verified Email"
+msgstr ""
+"A conta foi verificada por E-mail\n"
+
+#: includes/core/um-verified-users-init.php:156
+msgid "Send a notification to user when his account is verified"
+msgstr ""
+"Enviar uma notificação ao usuário quando sua conta for verificada\n"
+
+#: includes/core/um-verified-users-init.php:163
+msgid "Verification Request  Email"
+msgstr ""
+"Email de Solicitação de Verificação\n"
+
+#: includes/core/um-verified-users-init.php:172
+msgid ""
+"Send a notification email to admin when a user requests to have their "
+"account verified."
+msgstr ""
+"Enviar um email de notificação para o administrador quando um usuário "
+"solicitar a verificação de sua conta.\n"
+
+#: includes/core/um-verified-users-license.php:16
+msgid "Verified Users License Key"
+msgstr ""
+"Licença do Usuários Verificados\n"
+
+#: templates/account_info.php:19
+msgid "Get Verified"
+msgstr "Verificar"
+
+#. translators: %s - cancel verification request link
+#: templates/account_info.php:34 templates/profile_info.php:23
+msgid ""
+"Your verification request is currently pending. <a href=\"%s\" class=\"um-"
+"verified-cancel-request\">Cancel request?</a>"
+msgstr ""
+"Sua solicitação de verificação está pendente. <a href=\"%s\" class=\"um-"
+"verified-cancel-request\">Cancelar solicitação?</a>\n"
+
+#. translators: %s - Verified users extension name
+#: um-verified-users.php:51 um-verified-users.php:67
+msgid ""
+"The <strong>%s</strong> extension requires the Ultimate Member plugin to be "
+"activated to work properly. You can download it <a href=\"https://wordpress."
+"org/plugins/ultimate-member\">here</a>"
+msgstr ""
+"A extensão <strong>%s</strong> requer que o plugin Ultimate Member esteja "
+"ativado para funcionar corretamente. Você pode baixá-lo <a href=\"https:"
+"//wordpress.org/plugins/ultimate-member\">aqui</a>.\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
